@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites disabled="79" errors="" failures="4" name="" tests="573" time="767.754">
+	<testsuite disabled="55" errors="" failures="" hostname="6f5fff8d5ccb" id="0" name="rocksdb" package="" skipped="85" tests="556" time="735.092" timestamp="2025-07-31T08:32:41Z">
+		<testcase assertions="" classname="rocksdb" name="1st" status="MTR_RES_PASSED" time="0.030" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="1st" status="MTR_RES_PASSED" time="0.034" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="2pc_group_commit" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="2pc_group_commit" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="add_index_inplace" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="FORCE INDEX gives wrong count" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="add_index_inplace_cardinality" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="add_index_inplace_cardinality" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="add_index_inplace_crash" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="add_index_inplace_crash" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="add_index_inplace_sstfilewriter" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test needs --big-test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="add_unique_index_inplace" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="add_unique_index_inplace" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="allow_no_pk_concurrent_insert" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="stress test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="allow_no_primary_key" status="MTR_RES_PASSED" time="4.333" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="allow_no_primary_key" status="MTR_RES_PASSED" time="4.334" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="allow_no_primary_key_with_sk" status="MTR_RES_PASSED" time="12.973" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="allow_no_primary_key_with_sk" status="MTR_RES_PASSED" time="12.965" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="allow_to_start_after_corruption" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="allow_to_start_after_corruption" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="alter_table" status="MTR_RES_PASSED" time="0.125" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="alter_table" status="MTR_RES_PASSED" time="0.128" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="analyze_table" status="MTR_RES_PASSED" time="0.069" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="analyze_table" status="MTR_RES_PASSED" time="0.071" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="apply_changes_iter" status="MTR_RES_PASSED" time="0.030" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="apply_changes_iter" status="MTR_RES_PASSED" time="0.030" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_crash_safe" status="MTR_RES_PASSED" time="17.587" combinations="row,write_committed" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_crash_safe" status="MTR_RES_PASSED" time="17.681" combinations="row,write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_crash_safe_partition" status="MTR_RES_PASSED" time="17.837" combinations="row,write_committed" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_crash_safe_partition" status="MTR_RES_PASSED" time="17.827" combinations="row,write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="autoinc_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="autoinc_secondary" status="MTR_RES_PASSED" time="1.438" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_secondary" status="MTR_RES_PASSED" time="1.437" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_vars" status="MTR_RES_PASSED" time="0.210" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_vars" status="MTR_RES_PASSED" time="0.226" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_vars_thread" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="autoinc_vars_thread" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="autoinc_vars_thread_2" status="MTR_RES_PASSED" time="2.440" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="autoinc_vars_thread_2" status="MTR_RES_PASSED" time="2.517" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="binlog_rotate_crash" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="binlog_rotate_crash" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="blind_delete_rc" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Read-Free replication is not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="blind_delete_rr" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Read-Free replication is not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="bloomfilter" status="MTR_RES_PASSED" time="1.764" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter" status="MTR_RES_PASSED" time="1.797" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter2" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-33789: rocksdb.bloomfilter2 failed on amd64-debian-12-rocksdb" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="bloomfilter3" status="MTR_RES_PASSED" time="4.684" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter3" status="MTR_RES_PASSED" time="4.680" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter4" status="MTR_RES_PASSED" time="2.430" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter4" status="MTR_RES_PASSED" time="2.460" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter5" status="MTR_RES_PASSED" time="0.107" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter5" status="MTR_RES_PASSED" time="0.107" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter_bulk_load" status="MTR_RES_PASSED" time="0.029" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter_bulk_load" status="MTR_RES_PASSED" time="0.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter_skip" status="MTR_RES_PASSED" time="1.742" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bloomfilter_skip" status="MTR_RES_PASSED" time="1.760" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test needs --big-test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="bulk_load_drop_table" status="MTR_RES_PASSED" time="0.210" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_drop_table" status="MTR_RES_PASSED" time="0.225" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_errors" status="MTR_RES_PASSED" time="6.388" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_errors" status="MTR_RES_PASSED" time="6.387" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_rev_cf" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test needs --big-test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="bulk_load_rev_cf_and_data" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test needs --big-test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="bulk_load_rev_data" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test needs --big-test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="bulk_load_sk" status="MTR_RES_PASSED" time="0.352" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_sk" status="MTR_RES_PASSED" time="0.374" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_unsorted" status="MTR_RES_PASSED" time="12.096" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_unsorted" status="MTR_RES_PASSED" time="12.128" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_unsorted_errors" status="MTR_RES_PASSED" time="0.001" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_unsorted_errors" status="MTR_RES_PASSED" time="0.010" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_unsorted_rev" status="MTR_RES_PASSED" time="12.063" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="bulk_load_unsorted_rev" status="MTR_RES_PASSED" time="12.196" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="bypass_select_basic" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Query bypass is not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="bypass_select_basic_bloom" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Query bypass is not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="bytes_written" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Needs I_S.TABLE_STATISTICS.IO_WRITE_BYTES" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="cardinality" status="MTR_RES_PASSED" time="4.252" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="cardinality" status="MTR_RES_PASSED" time="4.324" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="check_flags" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="check_flags" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="check_ignore_unknown_options" status="MTR_RES_PASSED" time="1.280" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="check_ignore_unknown_options" status="MTR_RES_PASSED" time="1.284" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="check_table" status="MTR_RES_PASSED" time="0.040" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="check_table" status="MTR_RES_PASSED" time="0.036" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="checkpoint" status="MTR_RES_PASSED" time="0.211" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="checkpoint" status="MTR_RES_PASSED" time="0.210" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="checksum_table" status="MTR_RES_PASSED" time="0.087" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="checksum_table" status="MTR_RES_PASSED" time="0.067" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="checksum_table_live" status="MTR_RES_PASSED" time="0.021" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="checksum_table_live" status="MTR_RES_PASSED" time="0.032" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="col_opt_default" status="MTR_RES_PASSED" time="0.045" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="col_opt_default" status="MTR_RES_PASSED" time="0.051" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="col_opt_not_null" status="MTR_RES_PASSED" time="1.377" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="col_opt_not_null" status="MTR_RES_PASSED" time="1.497" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="col_opt_null" status="MTR_RES_PASSED" time="0.974" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="col_opt_null" status="MTR_RES_PASSED" time="0.956" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="col_opt_unsigned" status="MTR_RES_PASSED" time="0.124" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="col_opt_unsigned" status="MTR_RES_PASSED" time="0.121" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="col_opt_zerofill" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-14729 (also MDEV-14165 which was fixed): problem in the client" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="collation" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Fails on gcc 4.8 and before,  MDEV-12433" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="collation_exception" status="MTR_RES_PASSED" time="0.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="collation_exception" status="MTR_RES_PASSED" time="0.034" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="com_rpc_tx" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Requires connection attributes and detached sessions" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="commit_in_the_middle_ddl" status="MTR_RES_PASSED" time="3.109" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="commit_in_the_middle_ddl" status="MTR_RES_PASSED" time="3.426" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="compact_deletes" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-12663 : rocksdb.compact_deletes times out and causes other tests to fail" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="compression_zstd" status="MTR_RES_PASSED" time="1.407" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="compression_zstd" status="MTR_RES_PASSED" time="1.418" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="concurrent_alter" status="MTR_RES_PASSED" time="6.559" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="concurrent_alter" status="MTR_RES_PASSED" time="6.500" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="cons_snapshot_read_committed" status="MTR_RES_PASSED" time="0.050" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="cons_snapshot_read_committed" status="MTR_RES_PASSED" time="0.054" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="cons_snapshot_repeatable_read" status="MTR_RES_PASSED" time="0.052" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="cons_snapshot_repeatable_read" status="MTR_RES_PASSED" time="0.053" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="cons_snapshot_serializable" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Consistent read does not work on serializable" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="corrupted_data_reads_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="corrupted_data_reads_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="covered_unpack_info_format" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="covered_unpack_info_format" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="create_no_primary_key_table" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB doesn&#39;t have --block_create_no_primary_key" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="create_table" status="MTR_RES_PASSED" time="0.055" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="create_table" status="MTR_RES_PASSED" time="0.054" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="ddl_high_priority" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Needs fractional @@lock_wait_timeout" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="deadlock" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test needs --big-test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="deadlock_stats" status="MTR_RES_PASSED" time="0.004" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="deadlock_stats" status="MTR_RES_PASSED" time="0.003" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="deadlock_tracking" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Needs SHOW ENGINE ROCKSDB TRANSACTION STATUS" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="delete" status="MTR_RES_PASSED" time="0.054" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="delete" status="MTR_RES_PASSED" time="0.055" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="delete_ignore" status="MTR_RES_PASSED" time="0.033" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="delete_ignore" status="MTR_RES_PASSED" time="0.033" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="delete_quick" status="MTR_RES_PASSED" time="0.032" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="delete_quick" status="MTR_RES_PASSED" time="0.035" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="delete_with_keys" status="MTR_RES_PASSED" time="0.057" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="delete_with_keys" status="MTR_RES_PASSED" time="0.070" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="describe" status="MTR_RES_PASSED" time="0.049" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="describe" status="MTR_RES_PASSED" time="0.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="drop_database" status="MTR_RES_PASSED" time="0.028" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="drop_database" status="MTR_RES_PASSED" time="0.029" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="drop_index_inplace" status="MTR_RES_PASSED" time="3.256" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="drop_index_inplace" status="MTR_RES_PASSED" time="3.272" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="drop_table" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Hangs on shutdown" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="drop_table2" status="MTR_RES_PASSED" time="70.984" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="drop_table2" status="MTR_RES_PASSED" time="70.922" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="drop_table3" status="MTR_RES_PASSED" time="5.804" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="drop_table3" status="MTR_RES_PASSED" time="5.896" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="dup_key_update" status="MTR_RES_PASSED" time="0.078" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="dup_key_update" status="MTR_RES_PASSED" time="0.082" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="duplicate_table" status="MTR_RES_PASSED" time="0.021" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="duplicate_table" status="MTR_RES_PASSED" time="0.022" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="explicit_snapshot" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB doesn&#39;t support Shared/Explicit snapshots" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="fail_system_cf" status="MTR_RES_PASSED" time="0.016" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="fail_system_cf" status="MTR_RES_PASSED" time="0.012" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="fast_prefix_index_fetch" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="fast_prefix_index_fetch" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="force_shutdown" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires support for SHUTDOWN statement which calls exit()." type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="foreign_key" status="MTR_RES_PASSED" time="0.021" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="foreign_key" status="MTR_RES_PASSED" time="0.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="gap_lock_issue254" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-11735: MyRocks: Gap Lock detector support" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="gap_lock_raise_error" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-11735: MyRocks: Gap Lock detector support" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="get_error_message" status="MTR_RES_PASSED" time="0.030" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="get_error_message" status="MTR_RES_PASSED" time="0.030" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="group_min_max" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="group_min_max" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ha_extra_keyread" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ha_extra_keyread" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="handler_basic" status="MTR_RES_PASSED" time="0.064" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="handler_basic" status="MTR_RES_PASSED" time="0.070" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="hermitage" status="MTR_RES_PASSED" time="0.399" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="hermitage" status="MTR_RES_PASSED" time="0.405" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="i_s" status="MTR_RES_PASSED" time="0.002" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="i_s" status="MTR_RES_PASSED" time="0.002" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="i_s_ddl" status="MTR_RES_PASSED" time="0.032" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="i_s_ddl" status="MTR_RES_PASSED" time="0.024" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="i_s_deadlock" status="MTR_RES_PASSED" time="0.035" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="i_s_deadlock" status="MTR_RES_PASSED" time="0.040" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="index" status="MTR_RES_PASSED" time="0.126" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="index" status="MTR_RES_PASSED" time="0.138" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="index_file_map" status="MTR_RES_PASSED" time="0.056" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="index_file_map" status="MTR_RES_PASSED" time="0.057" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="index_key_block_size" status="MTR_RES_PASSED" time="0.096" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="index_key_block_size" status="MTR_RES_PASSED" time="0.098" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="index_merge_rocksdb" status="MTR_RES_PASSED" time="0.300" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="index_merge_rocksdb" status="MTR_RES_PASSED" time="0.309" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="index_merge_rocksdb2" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test needs --big-test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="index_primary" status="MTR_RES_PASSED" time="0.072" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="index_primary" status="MTR_RES_PASSED" time="0.066" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="index_type_btree" status="MTR_RES_PASSED" time="0.116" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="index_type_btree" status="MTR_RES_PASSED" time="0.104" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="index_type_hash" status="MTR_RES_PASSED" time="0.103" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="index_type_hash" status="MTR_RES_PASSED" time="0.112" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="information_schema" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-14372: unstable testcase" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="innodb_i_s_tables_disabled" status="MTR_RES_PASSED" time="0.013" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="innodb_i_s_tables_disabled" status="MTR_RES_PASSED" time="0.012" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="insert" status="MTR_RES_PASSED" time="0.052" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="insert" status="MTR_RES_PASSED" time="0.050" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="insert_optimized_config" status="MTR_RES_PASSED" time="4.266" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="insert_optimized_config" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Test requires write_committed policy" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="insert_with_keys" status="MTR_RES_PASSED" time="0.158" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="insert_with_keys" status="MTR_RES_PASSED" time="0.152" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue100" status="MTR_RES_PASSED" time="0.029" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue100" status="MTR_RES_PASSED" time="0.028" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue100_delete" status="MTR_RES_PASSED" time="0.094" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue100_delete" status="MTR_RES_PASSED" time="0.100" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue111" status="MTR_RES_PASSED" time="0.035" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue111" status="MTR_RES_PASSED" time="0.038" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue243_transactionStatus" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB doesnt support SHOW ENGINE rocksdb TRANSACTION STATUS" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="issue255" status="MTR_RES_PASSED" time="0.038" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue255" status="MTR_RES_PASSED" time="0.040" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue290" status="MTR_RES_PASSED" time="0.417" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue290" status="MTR_RES_PASSED" time="0.424" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue314" status="MTR_RES_PASSED" time="0.029" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue314" status="MTR_RES_PASSED" time="0.030" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue495" status="MTR_RES_PASSED" time="0.020" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue495" status="MTR_RES_PASSED" time="0.023" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue884" status="MTR_RES_PASSED" time="0.288" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue884" status="MTR_RES_PASSED" time="0.298" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue896" status="MTR_RES_PASSED" time="0.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue896" status="MTR_RES_PASSED" time="0.029" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="issue900" status="MTR_RES_PASSED" time="0.151" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="issue900" status="MTR_RES_PASSED" time="0.145" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="iterator_bounds" status="MTR_RES_PASSED" time="0.045" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="iterator_bounds" status="MTR_RES_PASSED" time="0.046" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="kill" status="MTR_RES_PASSED" time="0.040" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="kill" status="MTR_RES_PASSED" time="0.041" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="level_read_committed" status="MTR_RES_PASSED" time="0.043" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="level_read_committed" status="MTR_RES_PASSED" time="0.043" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="level_read_uncommitted" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="level_repeatable_read" status="MTR_RES_PASSED" time="0.051" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="level_repeatable_read" status="MTR_RES_PASSED" time="0.050" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="level_serializable" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="loaddata" status="MTR_RES_PASSED" time="0.061" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="loaddata" status="MTR_RES_PASSED" time="0.059" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="lock" status="MTR_RES_PASSED" time="6.096" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="lock" status="MTR_RES_PASSED" time="6.090" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="lock_info" status="MTR_RES_PASSED" time="0.032" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="lock_info" status="MTR_RES_PASSED" time="0.033" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="lock_rows_not_exist" status="MTR_RES_PASSED" time="3.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="lock_rows_not_exist" status="MTR_RES_PASSED" time="3.032" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="lock_wait_timeout_stats" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-13404" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="locking_issues" status="MTR_RES_PASSED" time="0.010" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues" status="MTR_RES_PASSED" time="0.013" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case1_1_rc" status="MTR_RES_PASSED" time="2.019" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case1_1_rc" status="MTR_RES_PASSED" time="2.020" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case1_1_rr" status="MTR_RES_PASSED" time="2.029" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case1_1_rr" status="MTR_RES_PASSED" time="2.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case1_2_rc" status="MTR_RES_PASSED" time="0.029" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case1_2_rc" status="MTR_RES_PASSED" time="0.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case1_2_rr" status="MTR_RES_PASSED" time="0.024" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case1_2_rr" status="MTR_RES_PASSED" time="0.021" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case2_rc" status="MTR_RES_PASSED" time="1.033" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case2_rc" status="MTR_RES_PASSED" time="1.032" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case2_rc_lsr" status="MTR_RES_PASSED" time="1.038" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case2_rc_lsr" status="MTR_RES_PASSED" time="1.032" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case2_rr" status="MTR_RES_PASSED" time="1.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case2_rr" status="MTR_RES_PASSED" time="1.032" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case2_rr_lsr" status="MTR_RES_PASSED" time="1.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case2_rr_lsr" status="MTR_RES_PASSED" time="1.021" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case3_rc" status="MTR_RES_PASSED" time="1.005" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case3_rc" status="MTR_RES_PASSED" time="1.034" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case3_rr" status="MTR_RES_PASSED" time="1.020" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case3_rr" status="MTR_RES_PASSED" time="1.021" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case4_rc" status="MTR_RES_PASSED" time="1.025" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case4_rc" status="MTR_RES_PASSED" time="1.050" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case4_rr" status="MTR_RES_PASSED" time="1.045" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case4_rr" status="MTR_RES_PASSED" time="1.045" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case5_rc" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-33781: rocksdb.locking_issues_case5_rc fails on amd64-windows-packages" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case5_rr" status="MTR_RES_PASSED" time="1.018" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case5_rr" status="MTR_RES_PASSED" time="1.008" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case6_rc" status="MTR_RES_PASSED" time="1.029" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case6_rc" status="MTR_RES_PASSED" time="1.049" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case6_rr" status="MTR_RES_PASSED" time="1.021" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case6_rr" status="MTR_RES_PASSED" time="1.023" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case7_rc" status="MTR_RES_PASSED" time="0.050" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case7_rc" status="MTR_RES_PASSED" time="0.048" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case7_rc_lsr" status="MTR_RES_PASSED" time="1.038" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case7_rc_lsr" status="MTR_RES_PASSED" time="1.022" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case7_rr" status="MTR_RES_PASSED" time="0.049" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case7_rr" status="MTR_RES_PASSED" time="0.048" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case7_rr_lsr" status="MTR_RES_PASSED" time="1.034" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="locking_issues_case7_rr_lsr" status="MTR_RES_PASSED" time="1.032" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_ignore_dirs" status="MTR_RES_PASSED" time="2.422" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_ignore_dirs" status="MTR_RES_PASSED" time="2.423" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_misc_binlog" status="MTR_RES_PASSED" time="0.052" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_misc_binlog" status="MTR_RES_PASSED" time="0.056" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_plugin" status="MTR_RES_PASSED" time="0.167" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_plugin" status="MTR_RES_PASSED" time="0.200" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_port_fixes" status="MTR_RES_PASSED" time="0.055" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_port_fixes" status="MTR_RES_PASSED" time="0.105" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_port_rpl" status="MTR_RES_PASSED" time="0.039" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="mariadb_port_rpl" status="MTR_RES_PASSED" time="0.042" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="max_open_files" status="MTR_RES_PASSED" time="7.476" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="max_open_files" status="MTR_RES_PASSED" time="7.479" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="misc" status="MTR_RES_PASSED" time="0.020" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="misc" status="MTR_RES_PASSED" time="0.018" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="multi_varchar_sk_lookup" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="multi_varchar_sk_lookup" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="mysqlbinlog_blind_replace" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires @@enable_blind_replace support" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="mysqlbinlog_gtid_skip_empty_trans_rocksdb" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaRocks: requires GTIDs" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="mysqldump" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB&#39;s mysqldump doesn&#39;t support --print-ordering-key" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="mysqldump2" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB&#39;s mysqldump doesn&#39;t support --print-ordering-key" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="native_procedure" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Not supported in MariaDB" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="negative_stats" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="negative_stats" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="no_merge_sort" status="MTR_RES_PASSED" time="0.732" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="no_merge_sort" status="MTR_RES_PASSED" time="0.750" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="optimize_myrocks_replace_into_base" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires @@enable_blind_replace support" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="optimize_myrocks_replace_into_lock" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires @@enable_blind_replace support" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="optimize_table" status="MTR_RES_PASSED" time="4.302" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="optimize_table" status="MTR_RES_PASSED" time="4.427" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="optimizer_loose_index_scans" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB doesnt support Skip Scan" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="partition" status="MTR_RES_PASSED" time="0.166" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="partition" status="MTR_RES_PASSED" time="0.178" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="percona_nonflushing_analyze_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Requires Percona Server&#39;s Non-flushing ANALYZE feature" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="perf_context" status="MTR_RES_PASSED" time="0.056" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="perf_context" status="MTR_RES_PASSED" time="0.032" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="persistent_cache" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Upstream RocksDB bug https://github.com/facebook/mysql-5.6/issues/579" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="prefix_extractor_override" status="MTR_RES_PASSED" time="1.024" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="prefix_extractor_override" status="MTR_RES_PASSED" time="1.025" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="read_only_tx" status="MTR_RES_PASSED" time="1.137" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="read_only_tx" status="MTR_RES_PASSED" time="1.190" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="records_in_range" status="MTR_RES_PASSED" time="2.242" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="records_in_range" status="MTR_RES_PASSED" time="2.272" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="repair_table" status="MTR_RES_PASSED" time="0.071" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="repair_table" status="MTR_RES_PASSED" time="0.069" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="replace" status="MTR_RES_PASSED" time="0.047" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="replace" status="MTR_RES_PASSED" time="0.050" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Test requires write_committed policy" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb" status="MTR_RES_PASSED" time="8.405" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_cf_options" status="MTR_RES_PASSED" time="4.235" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_cf_options" status="MTR_RES_PASSED" time="4.235" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_cf_per_partition" status="MTR_RES_PASSED" time="19.837" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_cf_per_partition" status="MTR_RES_PASSED" time="19.850" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_cf_reverse" status="MTR_RES_PASSED" time="0.087" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_cf_reverse" status="MTR_RES_PASSED" time="0.090" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_checksums" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_checksums" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_concurrent_delete" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_concurrent_delete" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_datadir" status="MTR_RES_PASSED" time="1.235" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_datadir" status="MTR_RES_PASSED" time="1.235" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_deadlock_detect_rc" status="MTR_RES_PASSED" time="0.052" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_deadlock_detect_rc" status="MTR_RES_PASSED" time="0.058" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_deadlock_detect_rr" status="MTR_RES_PASSED" time="0.054" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_deadlock_detect_rr" status="MTR_RES_PASSED" time="0.052" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_deadlock_stress_rc" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="stress test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_deadlock_stress_rr" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="stress test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_icp" status="MTR_RES_PASSED" time="0.126" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_icp" status="MTR_RES_PASSED" time="0.130" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_icp_rev" status="MTR_RES_PASSED" time="0.087" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_icp_rev" status="MTR_RES_PASSED" time="0.090" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_locks" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_locks" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_log_dir" status="MTR_RES_PASSED" time="0.039" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_log_dir" status="MTR_RES_PASSED" time="0.041" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_parts" status="MTR_RES_PASSED" time="1.573" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_parts" status="MTR_RES_PASSED" time="1.557" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_qcache" status="MTR_RES_PASSED" time="0.033" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_qcache" status="MTR_RES_PASSED" time="0.035" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_range" status="MTR_RES_PASSED" time="0.047" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_range" status="MTR_RES_PASSED" time="0.067" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_range2" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="result difference, update after MDEV-16746 is fixed" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_read_free_rpl" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Read-Free replication is not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_read_free_rpl_stress" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Read-Free replication is not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rocksdb_row_stats" status="MTR_RES_PASSED" time="0.052" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_row_stats" status="MTR_RES_PASSED" time="0.052" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_table_stats_sampling_pct_change" status="MTR_RES_PASSED" time="0.714" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_table_stats_sampling_pct_change" status="MTR_RES_PASSED" time="0.657" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_timeout_rollback" status="MTR_RES_PASSED" time="4.032" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rocksdb_timeout_rollback" status="MTR_RES_PASSED" time="4.035" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rollback_savepoint" status="MTR_RES_PASSED" time="0.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rollback_savepoint" status="MTR_RES_PASSED" time="0.045" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rpl_row_not_found" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB doesnt support slave_exec_mode=&#39;SEMI_STRICT&#39;" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rpl_row_not_found_rc" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB doesnt support slave_exec_mode=&#39;SEMI_STRICT&#39;" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rpl_row_rocksdb" status="MTR_RES_PASSED" time="0.207" combinations="row,write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rpl_row_rocksdb" status="MTR_RES_PASSED" time="0.205" combinations="row,write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rpl_row_stats" status="MTR_RES_PASSED" time="0.184" combinations="row,write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rpl_row_stats" status="MTR_RES_PASSED" time="0.184" combinations="row,write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rpl_row_triggers" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Requires read-free slave." type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rpl_savepoint" status="MTR_RES_PASSED" time="0.181" combinations="row,write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rpl_savepoint" status="MTR_RES_PASSED" time="0.182" combinations="row,write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rpl_statement" status="MTR_RES_PASSED" time="0.207" combinations="stmt,write_committed" />
+		<testcase assertions="" classname="rocksdb" name="rpl_statement" status="MTR_RES_PASSED" time="0.210" combinations="stmt,write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="rpl_statement_not_found" status="MTR_RES_SKIPPED" time="0.000" combinations="stmt,write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rpl_statement_not_found" status="MTR_RES_SKIPPED" time="0.000" combinations="stmt,write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rqg_examples" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Test that use RQG are disabled" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rqg_runtime" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Test that use RQG are disabled" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="rqg_transactions" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Test that use RQG are disabled" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="secondary_key_update_lock" status="MTR_RES_PASSED" time="1.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="secondary_key_update_lock" status="MTR_RES_PASSED" time="1.019" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="select" status="MTR_RES_PASSED" time="0.025" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="select" status="MTR_RES_PASSED" time="0.038" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="select_for_update" status="MTR_RES_PASSED" time="2.033" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="select_for_update" status="MTR_RES_PASSED" time="2.033" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="select_for_update_skip_locked_nowait" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-11481" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="select_lock_in_share_mode" status="MTR_RES_PASSED" time="1.032" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="select_lock_in_share_mode" status="MTR_RES_PASSED" time="1.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="show_engine" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaRocks: MariaDB doesnt support SHOW ENGINE rocksdb TRANSACTION STATUS" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="show_table_status" status="MTR_RES_PASSED" time="10.962" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="show_table_status" status="MTR_RES_PASSED" time="10.961" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="shutdown" status="MTR_RES_PASSED" time="1.358" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="shutdown" status="MTR_RES_PASSED" time="1.357" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="singledelete" status="MTR_RES_PASSED" time="3.026" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="singledelete" status="MTR_RES_PASSED" time="3.150" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="skip_core_dump_on_error" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires @@binlog_error_action support" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="skip_validate_tmp_table" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="skip_validate_tmp_table" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="slow_query_log" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-11480" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="statistics" status="MTR_RES_PASSED" time="11.154" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="statistics" status="MTR_RES_PASSED" time="11.381" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="table_stats" status="MTR_RES_PASSED" time="0.060" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="table_stats" status="MTR_RES_PASSED" time="0.068" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_ai" status="MTR_RES_PASSED" time="0.030" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_ai" status="MTR_RES_PASSED" time="0.020" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_avg_row_length" status="MTR_RES_PASSED" time="0.020" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_avg_row_length" status="MTR_RES_PASSED" time="0.030" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_checksum" status="MTR_RES_PASSED" time="0.029" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_checksum" status="MTR_RES_PASSED" time="0.033" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_connection" status="MTR_RES_PASSED" time="0.030" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_connection" status="MTR_RES_PASSED" time="0.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_data_index_dir" status="MTR_RES_PASSED" time="0.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_data_index_dir" status="MTR_RES_PASSED" time="0.032" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_delay_key_write" status="MTR_RES_PASSED" time="0.029" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_delay_key_write" status="MTR_RES_PASSED" time="0.020" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_insert_method" status="MTR_RES_PASSED" time="0.032" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_insert_method" status="MTR_RES_PASSED" time="0.020" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_key_block_size" status="MTR_RES_PASSED" time="0.027" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_key_block_size" status="MTR_RES_PASSED" time="0.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_max_rows" status="MTR_RES_PASSED" time="0.027" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_max_rows" status="MTR_RES_PASSED" time="0.026" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_min_rows" status="MTR_RES_PASSED" time="0.020" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_min_rows" status="MTR_RES_PASSED" time="0.027" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_pack_keys" status="MTR_RES_PASSED" time="0.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_pack_keys" status="MTR_RES_PASSED" time="0.018" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_password" status="MTR_RES_PASSED" time="0.029" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_password" status="MTR_RES_PASSED" time="0.029" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_row_format" status="MTR_RES_PASSED" time="0.029" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_row_format" status="MTR_RES_PASSED" time="0.030" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_union" status="MTR_RES_PASSED" time="0.021" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_opt_union" status="MTR_RES_PASSED" time="0.029" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tbl_standard_opts" status="MTR_RES_PASSED" time="0.030" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tbl_standard_opts" status="MTR_RES_PASSED" time="0.021" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="tmpdir" status="MTR_RES_PASSED" time="0.161" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="tmpdir" status="MTR_RES_PASSED" time="0.152" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="transaction" status="MTR_RES_PASSED" time="0.102" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="transaction" status="MTR_RES_PASSED" time="0.079" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="truncate_partition" status="MTR_RES_PASSED" time="5.047" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="truncate_partition" status="MTR_RES_PASSED" time="5.051" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="truncate_table" status="MTR_RES_PASSED" time="0.055" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="truncate_table" status="MTR_RES_PASSED" time="0.084" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="truncate_table3" status="MTR_RES_PASSED" time="5.472" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="truncate_table3" status="MTR_RES_PASSED" time="5.595" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="trx_info" status="MTR_RES_PASSED" time="0.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="trx_info" status="MTR_RES_PASSED" time="0.019" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="trx_info_rpl" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaRocks: @@rpl_skip_tx_api doesn&#39;t work, yet." type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_primary" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_primary" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_primary_read_filtering" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_primary_read_filtering" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_primary_with_partitions" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_primary_with_partitions" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_rows_examined" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_rows_examined" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_secondary" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_secondary" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_secondary_read_filtering" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_secondary_read_filtering" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_secondary_read_filtering_multiple_index" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_secondary_read_filtering_multiple_index" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_secondary_with_partitions" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="ttl_secondary_with_partitions" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="type_binary" status="MTR_RES_PASSED" time="0.018" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_binary" status="MTR_RES_PASSED" time="0.019" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_binary_indexes" status="MTR_RES_PASSED" time="0.044" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_binary_indexes" status="MTR_RES_PASSED" time="0.048" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_bit" status="MTR_RES_PASSED" time="0.030" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_bit" status="MTR_RES_PASSED" time="0.032" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_bit_indexes" status="MTR_RES_PASSED" time="0.046" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_bit_indexes" status="MTR_RES_PASSED" time="0.049" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_blob" status="MTR_RES_PASSED" time="0.070" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_blob" status="MTR_RES_PASSED" time="0.084" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_blob_indexes" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="type_blob_indexes" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="type_bool" status="MTR_RES_PASSED" time="0.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_bool" status="MTR_RES_PASSED" time="0.021" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_char" status="MTR_RES_PASSED" time="0.049" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_char" status="MTR_RES_PASSED" time="0.048" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_char_indexes" status="MTR_RES_PASSED" time="0.047" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_char_indexes" status="MTR_RES_PASSED" time="0.049" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_char_indexes_collation" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="type_char_indexes_collation" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="type_date_time" status="MTR_RES_PASSED" time="0.030" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_date_time" status="MTR_RES_PASSED" time="0.027" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_date_time_indexes" status="MTR_RES_PASSED" time="0.046" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_date_time_indexes" status="MTR_RES_PASSED" time="0.051" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_decimal" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="type_decimal" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="type_enum" status="MTR_RES_PASSED" time="0.037" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_enum" status="MTR_RES_PASSED" time="0.046" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_enum_indexes" status="MTR_RES_PASSED" time="0.047" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_enum_indexes" status="MTR_RES_PASSED" time="0.052" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_fixed" status="MTR_RES_PASSED" time="0.032" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_fixed" status="MTR_RES_PASSED" time="0.021" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_fixed_indexes" status="MTR_RES_PASSED" time="0.047" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_fixed_indexes" status="MTR_RES_PASSED" time="0.057" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_float" status="MTR_RES_PASSED" time="0.047" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_float" status="MTR_RES_PASSED" time="0.049" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_float_indexes" status="MTR_RES_PASSED" time="0.048" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_float_indexes" status="MTR_RES_PASSED" time="0.047" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_int" status="MTR_RES_PASSED" time="0.030" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_int" status="MTR_RES_PASSED" time="0.031" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_int_indexes" status="MTR_RES_PASSED" time="0.049" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_int_indexes" status="MTR_RES_PASSED" time="0.049" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_set" status="MTR_RES_PASSED" time="0.038" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_set" status="MTR_RES_PASSED" time="0.049" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_set_indexes" status="MTR_RES_PASSED" time="0.047" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_set_indexes" status="MTR_RES_PASSED" time="0.055" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_text" status="MTR_RES_PASSED" time="0.070" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_text" status="MTR_RES_PASSED" time="0.067" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_text_indexes" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="type_text_indexes" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="type_varbinary" status="MTR_RES_PASSED" time="0.050" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_varbinary" status="MTR_RES_PASSED" time="0.051" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="type_varchar" status="MTR_RES_PASSED" time="0.410" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="type_varchar" status="MTR_RES_PASSED" time="0.438" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="unique_check" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="unique_check" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="unique_sec" status="MTR_RES_PASSED" time="11.196" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="unique_sec" status="MTR_RES_PASSED" time="11.204" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="unique_sec_rev_cf" status="MTR_RES_PASSED" time="11.031" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="unique_sec_rev_cf" status="MTR_RES_PASSED" time="11.029" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="unsupported_tx_isolations" status="MTR_RES_PASSED" time="0.032" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="unsupported_tx_isolations" status="MTR_RES_PASSED" time="0.029" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="update" status="MTR_RES_PASSED" time="0.074" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="update" status="MTR_RES_PASSED" time="0.058" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="update_ignore" status="MTR_RES_PASSED" time="0.030" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="update_ignore" status="MTR_RES_PASSED" time="0.034" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="update_multi" status="MTR_RES_PASSED" time="0.217" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="update_multi" status="MTR_RES_PASSED" time="0.211" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="update_with_keys" status="MTR_RES_PASSED" time="0.037" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="update_with_keys" status="MTR_RES_PASSED" time="0.047" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="use_direct_io_for_flush_and_compaction" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="DATADIR is in /{dev|run}/shm, possibly due to --mem" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="use_direct_io_for_flush_and_compaction" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="DATADIR is in /{dev|run}/shm, possibly due to --mem" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="use_direct_reads" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Direct IO is not supported on all filesystems" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="use_direct_reads_writes" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="DATADIR is in /{dev|run}/shm, possibly due to --mem" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="use_direct_reads_writes" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="DATADIR is in /{dev|run}/shm, possibly due to --mem" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="validate_datadic" status="MTR_RES_PASSED" time="9.675" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="validate_datadic" status="MTR_RES_PASSED" time="9.672" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="varbinary_format" status="MTR_RES_SKIPPED" time="0.000" combinations="write_committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="varbinary_format" status="MTR_RES_SKIPPED" time="0.000" combinations="write_prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="vector" status="MTR_RES_PASSED" time="0.000" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="vector" status="MTR_RES_PASSED" time="0.001" combinations="write_prepared" />
+		<testcase assertions="" classname="rocksdb" name="write_sync" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-33866: rocksdb.write_sync fails on amd64-windows-packages" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb" name="xa" status="MTR_RES_PASSED" time="2.828" combinations="write_committed" />
+		<testcase assertions="" classname="rocksdb" name="xa" status="MTR_RES_PASSED" time="2.829" combinations="write_prepared" />
+	</testsuite>
+	<testsuite disabled="" errors="" failures="" hostname="6f5fff8d5ccb" id="1" name="rocksdb_hotbackup" package="" skipped="7" tests="7" time="0.000" timestamp="2025-07-31T08:32:41Z">
+		<testcase assertions="" classname="rocksdb_hotbackup" name="gtid" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_hotbackup" name="slocket" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_hotbackup" name="stream" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_hotbackup" name="wdt" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_hotbackup" name="xbstream" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_hotbackup" name="xbstream_direct" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_hotbackup" name="xbstream_socket" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="" type="MTR_RES_SKIPPED"/>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="20" errors="" failures="4" hostname="6f5fff8d5ccb" id="2" name="rocksdb_rpl" package="" skipped="2" tests="32" time="6.045" timestamp="2025-07-31T08:32:41Z">
+		<testcase assertions="" classname="rocksdb_rpl" name="consistent_snapshot_mixed_engines" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Tests START TRANSACTION WITH CONSISTENT $ENGINE_NAME SNAPSHOT" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="mdev12179" status="MTR_RES_PASSED" time="1.896" combinations="row,row-write-committed" />
+		<testcase assertions="" classname="rocksdb_rpl" name="mdev12179" status="MTR_RES_PASSED" time="1.991" combinations="row,row-write-prepared" />
+		<testcase assertions="" classname="rocksdb_rpl" name="multiclient_2pc" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Didn&#39;t try with MariaDB, yet" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="optimize_myrocks_replace_into" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires @@enable_blind_replace support." type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rocksdb_slave_check_before_image_consistency" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires slave_check_before_image_consistency feature" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_binlog_xid_count" status="MTR_RES_PASSED" time="0.059" combinations="row-write-committed" />
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_binlog_xid_count" status="MTR_RES_PASSED" time="0.058" combinations="row-write-prepared" />
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_crash_safe_wal_corrupt" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Didn&#39;t try with MariaDB, yet" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_ddl_high_priority" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="DDL commands with HIGH_PRIORITY syntax are not in MariaDB" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_gtid_crash_safe" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Didn&#39;t try with MariaDB, yet" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_gtid_crash_safe_optimized" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires slave_gtid_info=optimized" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_gtid_crash_safe_wal_corrupt" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Didn&#39;t try with MariaDB, yet" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_gtid_rocksdb_sys_header" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB doesn&#39;t support printing &#34;RocksDB: Last MySQL Gtid UUID&#34; into server stderr on startup" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_missing_columns_sk_update" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Uses log_column_names=ON feature which is only present in FB/MySQL" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_mts_dependency_unique_key_conflicts" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB doesn&#39;t support --slave-use-idempotent-for-recovery" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_no_unique_check_on_lag" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="unique_check_lag_threshold is not available in MariaDB" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_no_unique_check_on_lag_mts" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="unique_check_lag_threshold is not available in MariaDB" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_rocksdb_2pc_crash_recover" status="MTR_RES_SKIPPED" time="0.000" combinations="row-write-committed">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_rocksdb_2pc_crash_recover" status="MTR_RES_SKIPPED" time="0.000" combinations="row-write-prepared">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_rocksdb_slave_gtid_info_optimized" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires slave-gtid-info=optimized which is an FB/MySQL-only feature" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_rocksdb_snapshot" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Didn&#39;t try with MariaDB, yet" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_rocksdb_snapshot_without_gtid" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Didn&#39;t try with MariaDB, yet" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_rocksdb_stress_crash" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Stress test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_skip_trx_api_binlog_format" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="requires @@rpl_skip_tx_api" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_xa" status="MTR_RES_FAILED" time="0.000" combinations="row,row-write-committed">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[formatID	gtrid_length	bqual_length	data
+1	1	0	t
+1	1	0	s
+connection master;
+xa commit 't';
+xa commit 's';
+SET pseudo_slave_mode=0;
+Warnings:
+Warning	1231	Slave applier execution mode not active, statement ineffective.
+xa start 'r';
+insert into t1 values(7, 8);
+xa end 'r';
+xa prepare 'r';
+xa commit 'r';
+connection slave;
+include/diff_tables.inc [master:t1, slave:t1]
+include/diff_tables.inc [master:t2, slave:t2]
+connection master;
+drop table ti, t1, t2;
+include/rpl_end.inc
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_xa" status="MTR_RES_FAILED" time="0.000" combinations="row,row-write-prepared">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[formatID	gtrid_length	bqual_length	data
+1	1	0	t
+1	1	0	s
+connection master;
+xa commit 't';
+xa commit 's';
+SET pseudo_slave_mode=0;
+Warnings:
+Warning	1231	Slave applier execution mode not active, statement ineffective.
+xa start 'r';
+insert into t1 values(7, 8);
+xa end 'r';
+xa prepare 'r';
+xa commit 'r';
+connection slave;
+include/diff_tables.inc [master:t1, slave:t1]
+include/diff_tables.inc [master:t2, slave:t2]
+connection master;
+drop table ti, t1, t2;
+include/rpl_end.inc
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_xa" status="MTR_RES_FAILED" time="0.000" combinations="row,row-write-committed">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[formatID	gtrid_length	bqual_length	data
+1	1	0	t
+1	1	0	s
+connection master;
+xa commit 't';
+xa commit 's';
+SET pseudo_slave_mode=0;
+Warnings:
+Warning	1231	Slave applier execution mode not active, statement ineffective.
+xa start 'r';
+insert into t1 values(7, 8);
+xa end 'r';
+xa prepare 'r';
+xa commit 'r';
+connection slave;
+include/diff_tables.inc [master:t1, slave:t1]
+include/diff_tables.inc [master:t2, slave:t2]
+connection master;
+drop table ti, t1, t2;
+include/rpl_end.inc
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="rpl_xa" status="MTR_RES_FAILED" time="0.000" combinations="row,row-write-prepared">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[formatID	gtrid_length	bqual_length	data
+1	1	0	t
+1	1	0	s
+connection master;
+xa commit 't';
+xa commit 's';
+SET pseudo_slave_mode=0;
+Warnings:
+Warning	1231	Slave applier execution mode not active, statement ineffective.
+xa start 'r';
+insert into t1 values(7, 8);
+xa end 'r';
+xa prepare 'r';
+xa commit 'r';
+connection slave;
+include/diff_tables.inc [master:t1, slave:t1]
+include/diff_tables.inc [master:t2, slave:t2]
+connection master;
+drop table ti, t1, t2;
+include/rpl_end.inc
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="singledelete_idempotent_recovery" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB doesn&#39;t support --slave-use-idempotent-for-recovery" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_rpl" name="singledelete_idempotent_table" status="MTR_RES_PASSED" time="1.017" combinations="row,row-write-committed" />
+		<testcase assertions="" classname="rocksdb_rpl" name="singledelete_idempotent_table" status="MTR_RES_PASSED" time="1.024" combinations="row,row-write-prepared" />
+	</testsuite>
+	<testsuite disabled="2" errors="" failures="" hostname="6f5fff8d5ccb" id="3" name="rocksdb_stress" package="" skipped="" tests="2" time="0.000" timestamp="2025-07-31T08:32:41Z">
+		<testcase assertions="" classname="rocksdb_stress" name="rocksdb_stress" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Client scipt seems to hang on terminal input in MariaDB" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_stress" name="rocksdb_stress_crash" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="Client scipt seems to hang on terminal input in MariaDB" type="MTR_RES_SKIPPED"/>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="2" errors="" failures="" hostname="6f5fff8d5ccb" id="4" name="rocksdb_sys_vars" package="" skipped="" tests="149" time="26.617" timestamp="2025-07-31T08:32:41Z">
+		<testcase assertions="" classname="rocksdb_sys_vars" name="all_vars" status="MTR_RES_PASSED" time="0.025" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_access_hint_on_compaction_start_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_advise_random_on_open_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_allow_concurrent_memtable_write_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_allow_mmap_reads_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_allow_mmap_writes_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_allow_to_start_after_corruption_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_blind_delete_primary_key_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_block_cache_size_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_block_restart_interval_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_block_size_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_block_size_deviation_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_bulk_load_allow_sk_basic" status="MTR_RES_PASSED" time="0.017" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_bulk_load_allow_unsorted_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_bulk_load_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_bulk_load_size_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_bytes_per_sync_basic" status="MTR_RES_PASSED" time="0.005" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_cache_dump_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_cache_high_pri_pool_ratio_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_cache_index_and_filter_blocks_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_cache_index_and_filter_with_high_priority_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_checksums_pct_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_collect_sst_properties_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_commit_in_the_middle_basic" status="MTR_RES_PASSED" time="0.016" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_commit_time_batch_for_recovery_basic" status="MTR_RES_PASSED" time="0.038" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_compact_cf_basic" status="MTR_RES_PASSED" time="0.812" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_compaction_readahead_size_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_compaction_sequential_deletes_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_compaction_sequential_deletes_count_sd_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_compaction_sequential_deletes_file_size_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_compaction_sequential_deletes_window_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_create_checkpoint_basic" status="MTR_RES_PASSED" time="0.004" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_create_if_missing_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_create_missing_column_families_basic" status="MTR_RES_PASSED" time="0.016" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_datadir_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_db_write_buffer_size_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_deadlock_detect_basic" status="MTR_RES_PASSED" time="0.020" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_deadlock_detect_depth_basic" status="MTR_RES_PASSED" time="0.013" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_debug_manual_compaction_delay_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_debug_optimizer_no_zero_cardinality_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_debug_ttl_ignore_pk_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_debug_ttl_read_filter_ts_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_debug_ttl_rec_ts_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_debug_ttl_snapshot_ts_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_default_cf_options_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_delayed_write_rate_basic" status="MTR_RES_PASSED" time="0.005" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_delete_cf_basic" status="MTR_RES_PASSED" time="0.016" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_delete_obsolete_files_period_micros_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_enable_2pc_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_enable_bulk_load_api_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_enable_insert_with_update_caching_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_enable_thread_tracking_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_enable_ttl_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_enable_ttl_read_filtering_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_enable_write_thread_adaptive_yield_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_error_if_exists_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_error_on_suboptimal_collation_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_flush_log_at_trx_commit_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_force_compute_memtable_stats_basic" status="MTR_RES_PASSED" time="0.045" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_force_compute_memtable_stats_cachetime_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_force_flush_memtable_and_lzero_now_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_force_flush_memtable_now_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_force_index_records_in_range_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_git_hash_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_hash_index_allow_collision_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_ignore_datadic_errors_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_ignore_unknown_options_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_index_type_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_info_log_level_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_io_write_timeout_basic" status="MTR_RES_PASSED" time="0.016" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_is_fd_close_on_exec_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_keep_log_file_num_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_large_prefix_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_lock_scanned_rows_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_lock_wait_timeout_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_log_dir_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_log_file_time_to_roll_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_manifest_preallocation_size_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_manual_compaction_threads_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_manual_wal_flush_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_master_skip_tx_api_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_max_background_jobs_basic" status="MTR_RES_PASSED" time="0.007" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_max_latest_deadlocks_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_max_log_file_size_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_max_manifest_file_size_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_max_manual_compactions_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_max_open_files_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_max_row_locks_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_max_subcompactions_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_max_total_wal_size_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_merge_buf_size_basic" status="MTR_RES_PASSED" time="0.048" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_merge_combine_read_size_basic" status="MTR_RES_PASSED" time="0.037" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_merge_tmp_file_removal_delay_ms_basic" status="MTR_RES_PASSED" time="13.051" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_new_table_reader_for_compaction_inputs_basic" status="MTR_RES_PASSED" time="0.010" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_no_block_cache_basic" status="MTR_RES_PASSED" time="0.010" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_override_cf_options_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_paranoid_checks_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_pause_background_work_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_perf_context_level_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_persistent_cache_path_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_persistent_cache_size_mb_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_pin_l0_filter_and_index_blocks_in_cache_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_print_snapshot_conflict_queries_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_rate_limiter_bytes_per_sec_basic" status="MTR_RES_PASSED" time="12.025" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_read_free_rpl_basic" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB: Read-Free replication is not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_read_free_rpl_tables_basic" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MariaDB: Read-Free replication is not supported" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_records_in_range_basic" status="MTR_RES_PASSED" time="0.017" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_remove_mariabackup_checkpoint_basic" status="MTR_RES_PASSED" time="0.010" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_reset_stats_basic" status="MTR_RES_PASSED" time="0.004" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_rollback_on_timeout_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_seconds_between_stat_computes_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_signal_drop_index_thread_basic" status="MTR_RES_PASSED" time="0.014" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_sim_cache_size_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_skip_bloom_filter_on_read_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_skip_fill_cache_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_skip_unique_check_tables_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_sst_mgr_rate_bytes_per_sec_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_stats_dump_period_sec_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_stats_level_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_stats_recalc_rate_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_store_row_debug_checksums_basic" status="MTR_RES_PASSED" time="0.015" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_strict_collation_check_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_strict_collation_exceptions_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_supported_compression_types_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_table_cache_numshardbits_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_table_stats_sampling_pct_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_tmpdir_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_trace_sst_api_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_two_write_queues_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_unsafe_for_binlog_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_update_cf_options" status="MTR_RES_PASSED" time="0.026" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_update_cf_options_basic" status="MTR_RES_PASSED" time="0.061" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_use_adaptive_mutex_basic" status="MTR_RES_PASSED" time="0.012" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_use_clock_cache_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_use_direct_io_for_flush_and_compaction_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_use_direct_reads_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_use_fsync_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_validate_tables_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_verify_row_debug_checksums_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_wal_bytes_per_sync_basic" status="MTR_RES_PASSED" time="0.006" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_wal_dir_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_wal_recovery_mode_basic" status="MTR_RES_PASSED" time="0.015" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_wal_size_limit_mb_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_wal_ttl_seconds_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_whole_key_filtering_basic" status="MTR_RES_PASSED" time="0.000" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_write_batch_max_bytes_basic" status="MTR_RES_PASSED" time="0.017" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_write_disable_wal_basic" status="MTR_RES_PASSED" time="0.015" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_write_ignore_missing_column_families_basic" status="MTR_RES_PASSED" time="0.003" combinations="" />
+		<testcase assertions="" classname="rocksdb_sys_vars" name="rocksdb_write_policy_basic" status="MTR_RES_PASSED" time="0.002" combinations="" />
+	</testsuite>
+</testsuites>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites disabled="0" errors="" failures="0" name="" tests="10" time="75.264">
+	<testsuite disabled="" errors="" failures="" hostname="fedora" id="0" name="encryption" package="" skipped="2" tests="2" time="0.000" timestamp="2025-06-29T20:57:34Z">
+		<testcase assertions="" classname="encryption" name="doublewrite_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="cbc">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="encryption" name="doublewrite_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="ctr">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="" errors="" failures="" hostname="fedora" id="1" name="innodb" package="" skipped="5" tests="15" time="75.264" timestamp="2025-06-29T20:57:34Z">
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="6.550" combinations="32k,strict_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="7.475" combinations="16k,strict_full_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="7.697" combinations="16k,strict_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="7.718" combinations="8k,strict_full_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="7.782" combinations="8k,strict_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="7.488" combinations="4k,strict_full_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="7.607" combinations="32k,strict_full_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="7.577" combinations="4k,strict_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="7.625" combinations="64k,strict_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite" status="MTR_RES_PASSED" time="7.745" combinations="64k,strict_full_crc32" />
+		<testcase assertions="" classname="innodb" name="doublewrite_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="32k">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="innodb" name="doublewrite_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="64k">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="innodb" name="doublewrite_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="16k">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="innodb" name="doublewrite_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="4k">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="innodb" name="doublewrite_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="8k">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+	</testsuite>
+</testsuites>

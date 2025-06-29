@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites disabled="4" errors="" failures="12" name="" tests="468" time="4114.360">
+	<testsuite disabled="4" errors="" failures="10" hostname="ee1a4c0511f4" id="0" name="galera" package="" skipped="87" tests="485" time="3300.090" timestamp="2025-07-31T08:41:58Z">
+		<testcase assertions="" classname="galera" name="GAL-382" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="GAL-401" status="MTR_RES_PASSED" time="17.189" combinations="" />
+		<testcase assertions="" classname="galera" name="GAL-419" status="MTR_RES_PASSED" time="11.134" combinations="" />
+		<testcase assertions="" classname="galera" name="GAL-480" status="MTR_RES_PASSED" time="2.020" combinations="" />
+		<testcase assertions="" classname="galera" name="GCF-360" status="MTR_RES_PASSED" time="2.200" combinations="" />
+		<testcase assertions="" classname="galera" name="GCF-939" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-10715" status="MTR_RES_PASSED" time="2.016" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-15443" status="MTR_RES_PASSED" time="6.927" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-16509" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-18832" status="MTR_RES_PASSED" time="2.015" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-20225" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-20616" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-20793" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-21479" status="MTR_RES_PASSED" time="17.541" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-22021" status="MTR_RES_PASSED" time="2.009" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="MDEV-22021" status="MTR_RES_PASSED" time="2.008" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="MDEV-22051" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-22055" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-22227" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-22232" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-22421" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-22458" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-22708" status="MTR_RES_PASSED" time="3.012" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-24063" status="MTR_RES_PASSED" time="7.034" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-24143" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-24327" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-25389" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-25494" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-25562" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-25731" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-25740" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-26266" status="MTR_RES_PASSED" time="2.014" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-26499" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-26575" status="MTR_RES_PASSED" time="6.118" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-26597" status="MTR_RES_PASSED" time="28.298" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-27001" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-27123" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-27276" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-27806" status="MTR_RES_PASSED" time="2.169" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-27862" status="MTR_RES_PASSED" time="2.015" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="MDEV-27862" status="MTR_RES_PASSED" time="2.014" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="MDEV-28053" status="MTR_RES_PASSED" time="2.059" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-29142" status="MTR_RES_PASSED" time="26.244" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-29293" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-29512" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-30804" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-30955" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-31272" status="MTR_RES_PASSED" time="2.017" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="MDEV-31272" status="MTR_RES_PASSED" time="2.009" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="MDEV-32549" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-32938" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-33064" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-33133" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-33136" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-33523" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-33828" status="MTR_RES_PASSED" time="2.014" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-34594" status="MTR_RES_PASSED" time="2.013" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="MDEV-34594" status="MTR_RES_PASSED" time="2.013" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="MDEV-34647" status="MTR_RES_PASSED" time="2.020" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-35018" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-35446" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-35748" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-35852" status="MTR_RES_PASSED" time="2.012" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-35946" status="MTR_RES_PASSED" time="14.087" combinations="" />
+		<testcase assertions="" classname="galera" name="MDEV-36116" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MDEV-6860" status="MTR_RES_PASSED" time="2.258" combinations="" />
+		<testcase assertions="" classname="galera" name="MENT-1047" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-252" status="MTR_RES_PASSED" time="2.024" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-258" status="MTR_RES_PASSED" time="10.019" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-259" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-284" status="MTR_RES_PASSED" time="15.213" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-285" status="MTR_RES_PASSED" time="2.019" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-286" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-292" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-309" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-313" status="MTR_RES_PASSED" time="2.015" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-329" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-35951 Complete freeze during MW-329 test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-329F" status="MTR_RES_PASSED" time="52.278" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-336" status="MTR_RES_PASSED" time="2.044" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-357" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-369" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-388" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-402" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-416" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[Got one of the listed errors
+REPAIR TABLE db.tbl;
+Got one of the listed errors
+INSTALL PLUGIN plg SONAME 'plg.so';
+Got one of the listed errors
+UNINSTALL PLUGIN plg;
+Got one of the listed errors
+connection node_1;
+DROP USER 'userMW416'@'localhost';
+Warnings:
+Note	4227	Dropped users 'userMW416'@'localhost' have active connections. Use KILL CONNECTION if they should not be used anymore.
+SHOW DATABASES;
+Database
+information_schema
+mtr
+mysql
+performance_schema
+sys
+test
+disconnect userMW416;
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-416" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[Got one of the listed errors
+REPAIR TABLE db.tbl;
+Got one of the listed errors
+INSTALL PLUGIN plg SONAME 'plg.so';
+Got one of the listed errors
+UNINSTALL PLUGIN plg;
+Got one of the listed errors
+connection node_1;
+DROP USER 'userMW416'@'localhost';
+Warnings:
+Note	4227	Dropped users 'userMW416'@'localhost' have active connections. Use KILL CONNECTION if they should not be used anymore.
+SHOW DATABASES;
+Database
+information_schema
+mtr
+mysql
+performance_schema
+sys
+test
+disconnect userMW416;
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-44" status="MTR_RES_PASSED" time="2.015" combinations="" />
+		<testcase assertions="" classname="galera" name="MW-86-wait1" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="MW-86-wait8" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="basic" status="MTR_RES_PASSED" time="2.078" combinations="" />
+		<testcase assertions="" classname="galera" name="binlog_checksum" status="MTR_RES_PASSED" time="2.069" combinations="" />
+		<testcase assertions="" classname="galera" name="create" status="MTR_RES_PASSED" time="2.016" combinations="" />
+		<testcase assertions="" classname="galera" name="enforce_storage_engine" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="enforce_storage_engine2" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="ev51914" status="MTR_RES_PASSED" time="2.024" combinations="" />
+		<testcase assertions="" classname="galera" name="fk" status="MTR_RES_PASSED" time="2.144" combinations="" />
+		<testcase assertions="" classname="galera" name="galera#414" status="MTR_RES_PASSED" time="6.040" combinations="" />
+		<testcase assertions="" classname="galera" name="galera#500" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test requires Galera debug library with debug_sync functionality" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera#505" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera-features#117" status="MTR_RES_PASSED" time="6.203" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_2primary_replica" status="MTR_RES_PASSED" time="2.447" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_FK_duplicate_client_insert" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_MDEV-29512" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_UK_conflict" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_admin" status="MTR_RES_PASSED" time="2.114" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_alter_engine_innodb" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_alter_engine_myisam" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_alter_table_force" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_applier_ftwrl_table" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_applier_ftwrl_table_alter" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_master" status="MTR_RES_PASSED" time="2.123" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_master_large" status="MTR_RES_PASSED" time="2.040" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_slave" status="MTR_RES_PASSED" time="2.319" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_slave_autoinc" status="MTR_RES_PASSED" time="2.121" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_slave_ctas" status="MTR_RES_PASSED" time="2.324" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_slave_gtid" status="MTR_RES_PASSED" time="3.120" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_slave_gtid_auto_engine" status="MTR_RES_PASSED" time="3.121" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_slave_gtid_myisam" status="MTR_RES_PASSED" time="2.219" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_slave_nonprim" status="MTR_RES_PASSED" time="18.409" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_as_slave_parallel_retry" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_as_slave_replay" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogon">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_as_slave_replay" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogoff">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_autoinc_sst_mariabackup" status="MTR_RES_PASSED" time="38.681" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_backup_stage" status="MTR_RES_PASSED" time="2.128" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_backup_start" status="MTR_RES_PASSED" time="2.005" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort_at_after_statement" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_bf_abort_flush_for_export" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort_for_update" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort_ftwrl" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort_get_lock" status="MTR_RES_PASSED" time="3.011" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort_lock_table" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort_mariabackup" status="MTR_RES_PASSED" time="46.453" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort_ps" status="MTR_RES_PASSED" time="2.016" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort_ps_bind" status="MTR_RES_PASSED" time="2.119" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_abort_ps_threadpool" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_bf_abort_shutdown" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_bf_abort_sleep" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_background_statistics" status="MTR_RES_PASSED" time="2.069" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_bf_kill" status="MTR_RES_PASSED" time="2.023" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_bf_kill_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_bf_lock_wait" status="MTR_RES_PASSED" time="102.414" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_binlog_cache_size" status="MTR_RES_PASSED" time="3.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_binlog_checksum" status="MTR_RES_PASSED" time="2.018" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_binlog_event_max_size_max" status="MTR_RES_PASSED" time="2.231" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_binlog_event_max_size_min" status="MTR_RES_PASSED" time="2.015" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_binlog_row_image" status="MTR_RES_PASSED" time="2.014" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_binlog_stmt_autoinc" status="MTR_RES_PASSED" time="2.027" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_cache_index" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_can_run_toi" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_change_user" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[connection node_2;
+connection node_1;
+connection node_1;
+CREATE USER user1;
+CREATE TABLE t1 (f1 INT PRIMARY KEY) ENGINE=InnoDB;
+connect node_1a, 127.0.0.1, root, , test, $MYPORT_NODE_1;
+change_user user1,,;
+disconnect node_1a;
+connect node_1a, 127.0.0.1, root, , test, $MYPORT_NODE_1;
+START TRANSACTION;
+INSERT INTO t1 VALUES (1);
+change_user user1,,;
+disconnect node_1a;
+connection node_1;
+DROP TABLE t1;
+DROP USER user1;
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_change_user" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[connection node_2;
+connection node_1;
+connection node_1;
+CREATE USER user1;
+CREATE TABLE t1 (f1 INT PRIMARY KEY) ENGINE=InnoDB;
+connect node_1a, 127.0.0.1, root, , test, $MYPORT_NODE_1;
+change_user user1,,;
+disconnect node_1a;
+connect node_1a, 127.0.0.1, root, , test, $MYPORT_NODE_1;
+START TRANSACTION;
+INSERT INTO t1 VALUES (1);
+change_user user1,,;
+disconnect node_1a;
+connection node_1;
+DROP TABLE t1;
+DROP USER user1;
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_circular_replication" status="MTR_RES_PASSED" time="2.833" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_commit_empty" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_concurrent_ctas" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogon">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_concurrent_ctas" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogoff">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_create_function" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_create_procedure" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_create_table_as_select" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_create_table_like" status="MTR_RES_PASSED" time="2.012" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_create_trigger" status="MTR_RES_PASSED" time="2.019" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_create_view" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ctas" status="MTR_RES_PASSED" time="2.014" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ddl_fk_conflict" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_ddl_fk_no_conflict" status="MTR_RES_PASSED" time="2.053" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ddl_multiline" status="MTR_RES_PASSED" time="2.363" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_defaults" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_delete_limit" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_desync_overlapped" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_disallow_local_gtid" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_drop_database" status="MTR_RES_PASSED" time="6.298" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_drop_multi" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_encrypt_tmp_files" status="MTR_RES_PASSED" time="2.028" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_enum" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_event_node_evict" status="MTR_RES_PASSED" time="36.860" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_events" status="MTR_RES_PASSED" time="3.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_events2" status="MTR_RES_PASSED" time="13.501" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_cascade_delete" status="MTR_RES_PASSED" time="2.253" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_cascade_delete_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_fk_cascade_update" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_conflict" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_lock_wait" status="MTR_RES_PASSED" time="4.015" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_mismatch" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_multibyte" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_multicolumn" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_multitable" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_no_pk" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_selfreferential" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_setnull" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_fk_truncate" status="MTR_RES_PASSED" time="2.020" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_flush_local" status="MTR_RES_PASSED" time="2.112" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_forced_binlog_format" status="MTR_RES_PASSED" time="2.015" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_forced_binlog_format_ctas" status="MTR_RES_PASSED" time="2.041" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ftwrl" status="MTR_RES_PASSED" time="4.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ftwrl_concurrent" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_ftwrl_drain" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_fulltext" status="MTR_RES_PASSED" time="2.135" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gcache_recover" status="MTR_RES_PASSED" time="15.974" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gcache_recover_full_gcache" status="MTR_RES_PASSED" time="17.412" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gcache_recover_manytrx" status="MTR_RES_PASSED" time="32.526" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gcs_fc_limit" status="MTR_RES_PASSED" time="3.012" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gcs_fragment" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test requires Galera debug library with debug_sync functionality" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_gcs_max_packet_size" status="MTR_RES_PASSED" time="2.058" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gra_log" status="MTR_RES_PASSED" time="6.364" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gtid" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gtid_server_id" status="MTR_RES_PASSED" time="2.018" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gtid_slave" status="MTR_RES_PASSED" time="3.122" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gtid_slave_sst_rsync" status="MTR_RES_PASSED" time="13.077" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_gtid_trx_conflict" status="MTR_RES_PASSED" time="2.018" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_inject_bf_long_wait" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_insert_bulk" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_insert_ignore" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_insert_multi" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ist_MDEV-28423" status="MTR_RES_PASSED" time="26.063" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_ist_MDEV-28583" status="MTR_RES_PASSED" time="28.457" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_ist_mariabackup" status="MTR_RES_PASSED" time="26.080" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_ist_mariabackup_innodb_flush_logs" status="MTR_RES_PASSED" time="16.358" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_ist_mariabackup_verify_ca" status="MTR_RES_PASSED" time="9.446" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ist_mysqldump" status="MTR_RES_PASSED" time="199.323" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_ist_progress" status="MTR_RES_PASSED" time="18.173" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ist_recv_bind" status="MTR_RES_PASSED" time="17.175" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ist_restart_joiner" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_ist_rsync" status="MTR_RES_PASSED" time="28.365" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_ist_rsync_verify_ca" status="MTR_RES_PASSED" time="11.266" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_kill_applier" status="MTR_RES_PASSED" time="2.019" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_kill_bf" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_kill_ddl" status="MTR_RES_PASSED" time="18.359" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_kill_group_commit" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_kill_nochanges" status="MTR_RES_PASSED" time="18.136" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_kill_smallchanges" status="MTR_RES_PASSED" time="18.514" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_last_committed_id" status="MTR_RES_PASSED" time="2.017" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="galera_last_committed_id" status="MTR_RES_PASSED" time="2.016" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="galera_load_data" status="MTR_RES_PASSED" time="22.043" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_lock_table" status="MTR_RES_PASSED" time="4.013" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_lock_tables_in_transaction" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_log_bin" status="MTR_RES_PASSED" time="2.097" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_log_bin_ext" status="MTR_RES_PASSED" time="8.147" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_log_bin_ext_mariabackup" status="MTR_RES_PASSED" time="21.273" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_log_bin_opt" status="MTR_RES_PASSED" time="2.094" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_log_output_csv" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_many_columns" status="MTR_RES_PASSED" time="2.066" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_many_indexes" status="MTR_RES_PASSED" time="2.107" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_many_rows" status="MTR_RES_PASSED" time="2.351" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_many_tables_nopk" status="MTR_RES_PASSED" time="2.162" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_many_tables_pk" status="MTR_RES_PASSED" time="2.696" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_mdev_10812" status="MTR_RES_PASSED" time="6.014" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_mdev_13787" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_mdev_15611" status="MTR_RES_PASSED" time="2.042" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_mdl_race" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_multi_database" status="MTR_RES_PASSED" time="2.012" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_multi_level_fk_ddl_delete" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_multi_level_fk_ddl_update" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_multirow_rollback" status="MTR_RES_PASSED" time="2.013" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="galera_multirow_rollback" status="MTR_RES_PASSED" time="2.014" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="galera_myisam_autocommit" status="MTR_RES_PASSED" time="2.016" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="galera_myisam_autocommit" status="MTR_RES_PASSED" time="2.011" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="galera_myisam_transactions" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_nonPK_and_PA" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_nopk_bit" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_nopk_blob" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_nopk_large_varchar" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_nopk_unicode" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_parallel_apply_lock_table" status="MTR_RES_PASSED" time="4.012" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_parallel_autoinc_largetrx" status="MTR_RES_PASSED" time="3.130" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_parallel_autoinc_manytrx" status="MTR_RES_PASSED" time="4.254" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_parallel_simple" status="MTR_RES_PASSED" time="2.014" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_partition" status="MTR_RES_PASSED" time="2.079" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="galera_partition" status="MTR_RES_PASSED" time="2.073" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="galera_partition_key" status="MTR_RES_PASSED" time="2.020" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="galera_partition_key" status="MTR_RES_PASSED" time="2.020" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="galera_partitioned_tables" status="MTR_RES_PASSED" time="2.044" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_password" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_pc_ignore_sb" status="MTR_RES_PASSED" time="19.172" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_pc_recovery" status="MTR_RES_PASSED" time="7.667" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_performance_schema" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_pk_bigint_signed" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_pk_bigint_unsigned" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_prepared_statement" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_query_cache" status="MTR_RES_PASSED" time="2.019" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_query_cache_invalidate" status="MTR_RES_PASSED" time="2.518" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_query_cache_sync_wait" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_read_only" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[connection foo_node_2;
+INSERT INTO t1 VALUES (2);
+ERROR HY000: The MariaDB server is running with the --read-only=ON option so it cannot execute this statement
+CREATE TEMPORARY TABLE t2(id int not null primary key) engine=innodb;
+INSERT INTO t2 values (1);
+DROP TABLE t2;
+connection node_2;
+SELECT COUNT(*) AS EXPECT_1 FROM t1;
+EXPECT_1
+1
+connection node_2;
+SET GLOBAL read_only=TRUE;
+CREATE TEMPORARY TABLE t2(id int not null primary key) engine=innodb;
+INSERT INTO t2 values (1);
+DROP TABLE t2;
+SET GLOBAL read_only=FALSE;
+DROP TABLE t1;
+DROP USER foo@localhost;
+Warnings:
+Note	4227	Dropped users 'foo'@'localhost' have active connections. Use KILL CONNECTION if they should not be used anymore.
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_read_only" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[connection foo_node_2;
+INSERT INTO t1 VALUES (2);
+ERROR HY000: The MariaDB server is running with the --read-only=ON option so it cannot execute this statement
+CREATE TEMPORARY TABLE t2(id int not null primary key) engine=innodb;
+INSERT INTO t2 values (1);
+DROP TABLE t2;
+connection node_2;
+SELECT COUNT(*) AS EXPECT_1 FROM t1;
+EXPECT_1
+1
+connection node_2;
+SET GLOBAL read_only=TRUE;
+CREATE TEMPORARY TABLE t2(id int not null primary key) engine=innodb;
+INSERT INTO t2 values (1);
+DROP TABLE t2;
+SET GLOBAL read_only=FALSE;
+DROP TABLE t1;
+DROP USER foo@localhost;
+Warnings:
+Note	4227	Dropped users 'foo'@'localhost' have active connections. Use KILL CONNECTION if they should not be used anymore.
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_repair_view" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_repl_key_format_flat16" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_repl_max_ws_size" status="MTR_RES_PASSED" time="2.014" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_replica_no_gtid" status="MTR_RES_PASSED" time="8.159" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_restart_nochanges" status="MTR_RES_PASSED" time="7.144" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_restart_on_unknown_option" status="MTR_RES_PASSED" time="73.039" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_restart_replica" status="MTR_RES_PASSED" time="15.794" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_roles" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[connection node_2;
+SELECT * FROM mysql.roles_mapping;
+Host	User	Role	Admin_option
+	role1	role4	Y
+localhost	foo	role3	Y
+localhost	root	role1	Y
+localhost	root	role2	Y
+SELECT * FROM INFORMATION_SCHEMA.APPLICABLE_ROLES;
+GRANTEE	ROLE_NAME	IS_GRANTABLE	IS_DEFAULT
+role1	role4	YES	NULL
+root@localhost	role1	YES	NO
+root@localhost	role2	YES	NO
+DROP ROLE role1;
+DROP ROLE role2;
+DROP ROLE role3;
+DROP ROLE role4;
+DROP USER foo@localhost;
+disconnect node_2;
+disconnect node_1;
+# End of test
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_roles" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[connection node_2;
+SELECT * FROM mysql.roles_mapping;
+Host	User	Role	Admin_option
+	role1	role4	Y
+localhost	foo	role3	Y
+localhost	root	role1	Y
+localhost	root	role2	Y
+SELECT * FROM INFORMATION_SCHEMA.APPLICABLE_ROLES;
+GRANTEE	ROLE_NAME	IS_GRANTABLE	IS_DEFAULT
+role1	role4	YES	NULL
+root@localhost	role1	YES	NO
+root@localhost	role2	YES	NO
+DROP ROLE role1;
+DROP ROLE role2;
+DROP ROLE role3;
+DROP ROLE role4;
+DROP USER foo@localhost;
+disconnect node_2;
+disconnect node_1;
+# End of test
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_rsu_add_pk" status="MTR_RES_PASSED" time="3.251" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_rsu_drop_pk" status="MTR_RES_PASSED" time="3.839" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_rsu_error" status="MTR_RES_PASSED" time="2.018" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_rsu_simple" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_rsu_wsrep_desync" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_savepoint_replay" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_sbr" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sbr_binlog" status="MTR_RES_PASSED" time="2.016" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_schema" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_schema_dirty_reads" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sequence_engine" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sequences" status="MTR_RES_PASSED" time="2.057" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="galera_sequences" status="MTR_RES_PASSED" time="2.058" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="galera_sequences_bf_kill" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_sequences_transaction" status="MTR_RES_PASSED" time="2.027" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="galera_sequences_transaction" status="MTR_RES_PASSED" time="2.027" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="galera_serializable" status="MTR_RES_PASSED" time="6.015" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_server" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_set_position_after_cert_failure" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_set_position_after_dummy_writeset" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_shutdown_nonprim" status="MTR_RES_PASSED" time="17.254" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_skip_fk_check_ist" status="MTR_RES_PASSED" time="21.299" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_slave_replay" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_sp_bf_abort" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test requires Galera debug library with debug_sync functionality" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_sp_insert_parallel" status="MTR_RES_PASSED" time="2.148" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_split_brain" status="MTR_RES_PASSED" time="17.370" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sql_log_bin_zero" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ssl" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ssl_cipher" status="MTR_RES_PASSED" time="15.082" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ssl_compression" status="MTR_RES_PASSED" time="2.019" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_ssl_upgrade" status="MTR_RES_PASSED" time="15.274" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sst_encrypted" status="MTR_RES_PASSED" time="12.987" combinations="cbc" />
+		<testcase assertions="" classname="galera" name="galera_sst_encrypted" status="MTR_RES_PASSED" time="13.006" combinations="ctr" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup" status="MTR_RES_PASSED" time="44.642" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_data_dir" status="MTR_RES_PASSED" time="38.908" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_encrypt_with_key" status="MTR_RES_PASSED" time="2.019" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_encrypt_with_key-openssl" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_encrypt_with_key_server" status="MTR_RES_PASSED" time="2.024" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_force_recovery" status="MTR_RES_PASSED" time="41.648" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_gtid" status="MTR_RES_PASSED" time="39.148" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_logarchive" status="MTR_RES_PASSED" time="39.852" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_lost_found" status="MTR_RES_PASSED" time="21.194" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_no_auth" status="MTR_RES_PASSED" time="36.631" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_qpress" status="MTR_RES_PASSED" time="2.014" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_table_options" status="MTR_RES_PASSED" time="21.213" combinations="16k,clear" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_table_options" status="MTR_RES_PASSED" time="21.005" combinations="16k,crypt" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_table_options" status="MTR_RES_PASSED" time="21.106" combinations="4k,clear" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_table_options" status="MTR_RES_PASSED" time="21.107" combinations="4k,crypt" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_table_options" status="MTR_RES_PASSED" time="21.004" combinations="8k,clear" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_table_options" status="MTR_RES_PASSED" time="21.003" combinations="8k,crypt" />
+		<testcase assertions="" classname="galera" name="galera_sst_mariabackup_use_memory" status="MTR_RES_PASSED" time="20.973" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sst_mysqldump" status="MTR_RES_PASSED" time="294.099" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_mysqldump_with_key" status="MTR_RES_PASSED" time="199.281" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_rsync" status="MTR_RES_PASSED" time="30.251" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_rsync2" status="MTR_RES_PASSED" time="28.251" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_rsync_binlogname" status="MTR_RES_PASSED" time="6.934" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sst_rsync_data_dir" status="MTR_RES_PASSED" time="28.347" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_rsync_encrypt_with_capath" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_sst_rsync_encrypt_with_key" status="MTR_RES_SKIPPED" time="0.000" combinations="release">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_sst_rsync_encrypt_with_server" status="MTR_RES_SKIPPED" time="0.000" combinations="release">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_sst_rsync_gtid" status="MTR_RES_PASSED" time="28.330" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_sst_rsync_logbasename" status="MTR_RES_PASSED" time="6.933" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sst_rsync_recv_auto" status="MTR_RES_PASSED" time="28.255" combinations="release" />
+		<testcase assertions="" classname="galera" name="galera_status_cluster" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_status_local_index" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_status_local_state" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_strict_require_innodb" status="MTR_RES_PASSED" time="2.030" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_strict_require_primary_key" status="MTR_RES_PASSED" time="2.037" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_suspend_slave" status="MTR_RES_PASSED" time="25.260" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_sync_wait_show" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_sync_wait_upto" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_table_with_hyphen" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_temporary_sequences" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_threadpool" status="MTR_RES_PASSED" time="7.031" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_alter_auto_increment" status="MTR_RES_PASSED" time="4.018" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_ddl_error" status="MTR_RES_PASSED" time="2.407" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_ddl_fk_insert" status="MTR_RES_PASSED" time="5.043" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_ddl_fk_update" status="MTR_RES_PASSED" time="4.111" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_ddl_locking" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_toi_ddl_nonconflicting" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_toi_ddl_sequential" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_drop_database" status="MTR_RES_PASSED" time="6.563" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_ftwrl" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_lock_exclusive" status="MTR_RES_PASSED" time="3.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_lock_shared" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_toi_truncate" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_transaction_read_only" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_transaction_replay" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_trigger" status="MTR_RES_PASSED" time="2.012" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_truncate" status="MTR_RES_PASSED" time="2.015" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_truncate_temporary" status="MTR_RES_PASSED" time="2.012" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_unicode_identifiers" status="MTR_RES_PASSED" time="2.019" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_unicode_pk" status="MTR_RES_PASSED" time="2.018" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_update_limit" status="MTR_RES_PASSED" time="2.018" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_v1_row_events" status="MTR_RES_PASSED" time="2.016" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_OSU_method" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_var_OSU_method2" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_var_auto_inc_control_off" status="MTR_RES_PASSED" time="4.014" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_auto_inc_control_on" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_certify_nonPK_off" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_cluster_address" status="MTR_RES_PASSED" time="5.115" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_cluster_conf_id" status="MTR_RES_PASSED" time="2.005" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_desync_on" status="MTR_RES_PASSED" time="3.013" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_dirty_reads" status="MTR_RES_PASSED" time="3.144" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_fkchecks" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_gtid_domain_id" status="MTR_RES_PASSED" time="2.018" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_ignore_apply_errors" status="MTR_RES_PASSED" time="2.048" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_log_bin" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_max_ws_rows" status="MTR_RES_PASSED" time="2.230" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_max_ws_size" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_mysql_replication_bundle" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_notify_cmd" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_notify_ssl_ipv6" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_reject_queries" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_replicate_aria_off" status="MTR_RES_PASSED" time="2.015" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_replicate_aria_on" status="MTR_RES_PASSED" time="2.026" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_replicate_myisam_off" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_replicate_myisam_on" status="MTR_RES_PASSED" time="2.031" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_retry_autocommit" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_var_slave_threads" status="MTR_RES_PASSED" time="2.036" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_sst_auth" status="MTR_RES_PASSED" time="6.919" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_sync_wait" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_trx_fragment_size" status="MTR_RES_PASSED" time="2.012" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_wsrep_mode" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_wsrep_on_off" status="MTR_RES_PASSED" time="2.020" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_wsrep_provider_options" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_var_wsrep_start_position" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_view" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_virtual_blob" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_virtual_column" status="MTR_RES_PASSED" time="2.009" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_vote_ddl" status="MTR_RES_PASSED" time="2.023" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_vote_during_ist" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_vote_joined_apply" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_vote_joined_skip" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_vote_rejoin_ddl" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-35940 Unallowed state transition: donor -&gt; synced in galera_wan" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_vote_rejoin_dml" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-35964 Assertion `ist_seqno &gt;= cc_seqno&#39; failed in galera_vote_rejoin_dml" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_wan" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<disabled message="MDEV-35940 Unallowed state transition: donor -&gt; synced in galera_wan" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="galera_wan_restart_ist" status="MTR_RES_PASSED" time="19.092" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_wan_restart_sst" status="MTR_RES_PASSED" time="50.519" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_wsrep_desync_wsrep_on" status="MTR_RES_PASSED" time="2.899" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_wsrep_log_conficts" status="MTR_RES_PASSED" time="2.023" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_wsrep_mode" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_wsrep_new_cluster" status="MTR_RES_PASSED" time="10.038" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_wsrep_provider_options_syntax" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_wsrep_schema_detached" status="MTR_RES_PASSED" time="19.057" combinations="" />
+		<testcase assertions="" classname="galera" name="galera_zero_length_column" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="grant" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="lp1276424" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="lp1347768" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="lp1376747" status="MTR_RES_PASSED" time="4.012" combinations="" />
+		<testcase assertions="" classname="galera" name="lp1376747-2" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="lp1376747-3" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="lp1376747-4" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="lp1438990" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="lp959512" status="MTR_RES_PASSED" time="2.010" combinations="" />
+		<testcase assertions="" classname="galera" name="mariadb_tzinfo_to_sql" status="MTR_RES_PASSED" time="2.064" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev-22063" status="MTR_RES_PASSED" time="2.064" combinations="binlogon" />
+		<testcase assertions="" classname="galera" name="mdev-22063" status="MTR_RES_PASSED" time="2.057" combinations="binlogoff" />
+		<testcase assertions="" classname="galera" name="mdev-22543" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="mdev-26175" status="MTR_RES_PASSED" time="2.013" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev-28433" status="MTR_RES_PASSED" time="3.141" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev-29775" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev-30013" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev-30653" status="MTR_RES_PASSED" time="2.012" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev-31285" status="MTR_RES_PASSED" time="2.006" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev-31651" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev_10518" status="MTR_RES_PASSED" time="2.016" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev_18730" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="mdev_21025" status="MTR_RES_PASSED" time="2.008" combinations="" />
+		<testcase assertions="" classname="galera" name="mdev_21718" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="mdev_9290" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="mysql-wsrep#110" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="mysql-wsrep#198" status="MTR_RES_PASSED" time="2.020" combinations="" />
+		<testcase assertions="" classname="galera" name="mysql-wsrep#201" status="MTR_RES_PASSED" time="2.149" combinations="" />
+		<testcase assertions="" classname="galera" name="mysql-wsrep#237" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="mysql-wsrep#247" status="MTR_RES_PASSED" time="3.010" combinations="" />
+		<testcase assertions="" classname="galera" name="mysql-wsrep#31" status="MTR_RES_PASSED" time="6.328" combinations="" />
+		<testcase assertions="" classname="galera" name="mysql-wsrep#33" status="MTR_RES_PASSED" time="124.453" combinations="release" />
+		<testcase assertions="" classname="galera" name="mysql-wsrep#332" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="mysql-wsrep#90" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="mysql-wsrep-bugs-607" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera" name="mysql_tzinfo_to_sql" status="MTR_RES_PASSED" time="2.144" combinations="" />
+		<testcase assertions="" classname="galera" name="partition" status="MTR_RES_PASSED" time="2.097" combinations="" />
+		<testcase assertions="" classname="galera" name="rename" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[i
+1
+# On node_1
+connection node_1;
+RENAME TABLE t1 TO t2;
+SHOW TABLES;
+Tables_in_test
+t2
+# On node 2
+connection node_2;
+USE test;
+SELECT * FROM t2;
+i
+1
+connection node_1;
+DROP USER foo@localhost;
+Warnings:
+Note	4227	Dropped users 'foo'@'localhost' have active connections. Use KILL CONNECTION if they should not be used anymore.
+DROP TABLE t2;
+# End of tests
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="rename" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[i
+1
+# On node_1
+connection node_1;
+RENAME TABLE t1 TO t2;
+SHOW TABLES;
+Tables_in_test
+t2
+# On node 2
+connection node_2;
+USE test;
+SELECT * FROM t2;
+i
+1
+connection node_1;
+DROP USER foo@localhost;
+Warnings:
+Note	4227	Dropped users 'foo'@'localhost' have active connections. Use KILL CONNECTION if they should not be used anymore.
+DROP TABLE t2;
+# End of tests
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="galera" name="rpl_galera_to_mariadb_clone_slave_using_mariadb-backup" status="MTR_RES_PASSED" time="8.765" combinations="" />
+		<testcase assertions="" classname="galera" name="rpl_row_annotate" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="sql_log_bin" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera" name="unique_key" status="MTR_RES_PASSED" time="2.071" combinations="" />
+		<testcase assertions="" classname="galera" name="versioning_trx_id" status="MTR_RES_PASSED" time="2.020" combinations="" />
+		<testcase assertions="" classname="galera" name="view" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera" name="wsrep_mode_strict_replication" status="MTR_RES_PASSED" time="2.012" combinations="" />
+		<testcase assertions="" classname="galera" name="wsrep_slave_threads_basic" status="MTR_RES_PASSED" time="2.007" combinations="" />
+		<testcase assertions="" classname="galera" name="wsrep_trx_fragment_size_sr" status="MTR_RES_PASSED" time="2.007" combinations="" />
+	</testsuite>
+	<testsuite disabled="" errors="" failures="" hostname="ee1a4c0511f4" id="1" name="galera_3nodes" package="" skipped="11" tests="43" time="544.959" timestamp="2025-07-31T08:41:58Z">
+		<testcase assertions="" classname="galera_3nodes" name="GAL-501" status="MTR_RES_PASSED" time="19.157" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="GCF-354" status="MTR_RES_PASSED" time="12.031" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="GCF-363" status="MTR_RES_PASSED" time="10.266" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="GCF-376" status="MTR_RES_PASSED" time="24.300" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="MDEV-29171" status="MTR_RES_PASSED" time="28.207" combinations="rsync" />
+		<testcase assertions="" classname="galera_3nodes" name="MDEV-29171" status="MTR_RES_PASSED" time="15.964" combinations="mariabackup" />
+		<testcase assertions="" classname="galera_3nodes" name="MDEV-36360" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera-features#115" status="MTR_RES_PASSED" time="13.392" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera-features#119" status="MTR_RES_PASSED" time="24.778" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_2_cluster" status="MTR_RES_PASSED" time="2.152" combinations="binlogon" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_2_cluster" status="MTR_RES_PASSED" time="2.153" combinations="binlogoff" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_allowlist" status="MTR_RES_PASSED" time="19.843" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_certification_ccc" status="MTR_RES_PASSED" time="16.056" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_certification_double_failure" status="MTR_RES_PASSED" time="3.010" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_duplicate_primary_value" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera_dynamic_protocol" status="MTR_RES_PASSED" time="8.165" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_evs_suspect_timeout" status="MTR_RES_PASSED" time="13.270" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_garbd" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Needs garbd" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera_garbd_backup" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera_gtid_2_cluster" status="MTR_RES_PASSED" time="6.498" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_gtid_consistency" status="MTR_RES_PASSED" time="83.253" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_ipv6_mariabackup" status="MTR_RES_PASSED" time="17.155" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_ipv6_mariabackup_section" status="MTR_RES_PASSED" time="17.236" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_ipv6_mysqldump" status="MTR_RES_PASSED" time="16.213" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_ipv6_rsync" status="MTR_RES_PASSED" time="18.170" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_ipv6_rsync_section" status="MTR_RES_PASSED" time="17.163" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_ist_gcache_rollover" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera_join_with_cc_A" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test requires Galera debug library with debug_sync functionality" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera_join_with_cc_B" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test requires Galera debug library with debug_sync functionality" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera_join_with_cc_C" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test requires Galera debug library with debug_sync functionality" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera_parallel_apply_3nodes" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera_pc_bootstrap" status="MTR_RES_PASSED" time="32.219" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_pc_weight" status="MTR_RES_PASSED" time="18.448" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_safe_to_bootstrap" status="MTR_RES_PASSED" time="39.290" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_ssl_reload" status="MTR_RES_PASSED" time="14.086" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_sst_donor_non_prim" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes" name="galera_toi_vote" status="MTR_RES_PASSED" time="9.368" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_var_dirty_reads2" status="MTR_RES_PASSED" time="19.371" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_var_node_address" status="MTR_RES_PASSED" time="2.017" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_vote_rejoin_mysqldump" status="MTR_RES_PASSED" time="11.672" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_wsrep_schema" status="MTR_RES_PASSED" time="8.044" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="galera_wsrep_schema_init" status="MTR_RES_PASSED" time="2.012" combinations="" />
+		<testcase assertions="" classname="galera_3nodes" name="inconsistency_shutdown" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+	</testsuite>
+	<testsuite disabled="" errors="" failures="" hostname="ee1a4c0511f4" id="2" name="galera_3nodes_sr" package="" skipped="2" tests="17" time="267.297" timestamp="2025-07-31T08:41:58Z">
+		<testcase assertions="" classname="galera_3nodes_sr" name="GCF-336" status="MTR_RES_PASSED" time="18.253" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="GCF-582" status="MTR_RES_PASSED" time="8.037" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="GCF-606" status="MTR_RES_PASSED" time="18.536" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="GCF-609" status="MTR_RES_PASSED" time="2.011" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="GCF-817" status="MTR_RES_PASSED" time="21.393" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="GCF-832" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes_sr" name="MDEV-26707" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_sr_isolate_master" status="MTR_RES_PASSED" time="16.268" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_sr_join_slave" status="MTR_RES_PASSED" time="8.039" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_sr_kill_master" status="MTR_RES_PASSED" time="18.664" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_sr_kill_slave_after_apply" status="MTR_RES_PASSED" time="18.571" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_sr_kill_slave_after_apply_rollback" status="MTR_RES_PASSED" time="18.560" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_sr_kill_slave_after_apply_rollback2" status="MTR_RES_PASSED" time="18.828" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_sr_kill_slave_before_apply" status="MTR_RES_PASSED" time="30.227" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_sr_threeway_split" status="MTR_RES_PASSED" time="19.183" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_sr_threeway_split_no_primary" status="MTR_RES_PASSED" time="27.150" combinations="" />
+		<testcase assertions="" classname="galera_3nodes_sr" name="galera_vote_sr" status="MTR_RES_PASSED" time="23.577" combinations="" />
+	</testsuite>
+	<testsuite disabled="" errors="" failures="2" hostname="ee1a4c0511f4" id="3" name="wsrep" package="" skipped="10" tests="37" time="2.014" timestamp="2025-07-31T08:41:58Z">
+		<testcase assertions="" classname="wsrep" name="MDEV-20625" status="MTR_RES_PASSED" time="0.008" combinations="" />
+		<testcase assertions="" classname="wsrep" name="MDEV-23081" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogon">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="MDEV-23081" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogoff">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="MDEV-23466" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="wsrep" name="MDEV-33997" status="MTR_RES_PASSED" time="0.010" combinations="binlogon" />
+		<testcase assertions="" classname="wsrep" name="MDEV-33997" status="MTR_RES_PASSED" time="0.009" combinations="binlogoff" />
+		<testcase assertions="" classname="wsrep" name="alter_table_innodb" status="MTR_RES_PASSED" time="0.066" combinations="" />
+		<testcase assertions="" classname="wsrep" name="binlog_format" status="MTR_RES_PASSED" time="0.010" combinations="" />
+		<testcase assertions="" classname="wsrep" name="foreign_key" status="MTR_RES_PASSED" time="0.007" combinations="" />
+		<testcase assertions="" classname="wsrep" name="mdev_10186" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="wsrep" name="mdev_22681" status="MTR_RES_PASSED" time="0.007" combinations="" />
+		<testcase assertions="" classname="wsrep" name="mdev_7798" status="MTR_RES_PASSED" time="1.406" combinations="" />
+		<testcase assertions="" classname="wsrep" name="plugin" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="wsrep" name="pool_of_threads" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="wsrep" name="trans" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="wsrep" name="variables" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Galera number of variables has changed! (49 instead of 51)" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="variables_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="wsrep-recover" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogon">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="wsrep-recover" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogoff">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="wsrep-recover-gtid" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="wsrep-recover-gtid-nobinlog" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="wsrep-recover-v25" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogon">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="wsrep-recover-v25" status="MTR_RES_SKIPPED" time="0.000" combinations="binlogoff">
+			<skipped message="debug_sync is not available" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="wsrep_forced_binlog_format" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="wsrep" name="wsrep_mixed_case_cmd_arg" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="wsrep" name="wsrep_on_basic" status="MTR_RES_PASSED" time="0.001" combinations="" />
+		<testcase assertions="" classname="wsrep" name="wsrep_protocol_versions" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="wsrep" name="wsrep_provider_plugin" status="MTR_RES_PASSED" time="0.008" combinations="" />
+		<testcase assertions="" classname="wsrep" name="wsrep_provider_plugin_basic" status="MTR_RES_PASSED" time="0.010" combinations="" />
+		<testcase assertions="" classname="wsrep" name="wsrep_provider_plugin_defaults" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[NUMERIC_BLOCK_SIZE	NULL
+ENUM_VALUE_LIST	NULL
+READ_ONLY	YES
+COMMAND_LINE_ARGUMENT	REQUIRED
+GLOBAL_VALUE_PATH	NULL
+VARIABLE_NAME	WSREP_PROVIDER_SOCKET_SSL_RELOAD
+SESSION_VALUE	NULL
+GLOBAL_VALUE	OFF
+GLOBAL_VALUE_ORIGIN	COMPILE-TIME
+DEFAULT_VALUE	OFF
+VARIABLE_SCOPE	GLOBAL
+VARIABLE_TYPE	BOOLEAN
+VARIABLE_COMMENT	Wsrep provider option
+NUMERIC_MIN_VALUE	NULL
+NUMERIC_MAX_VALUE	NULL
+NUMERIC_BLOCK_SIZE	NULL
+ENUM_VALUE_LIST	OFF,ON
+READ_ONLY	NO
+COMMAND_LINE_ARGUMENT	REQUIRED
+GLOBAL_VALUE_PATH	NULL
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="wsrep_provider_plugin_defaults" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[NUMERIC_BLOCK_SIZE	NULL
+ENUM_VALUE_LIST	NULL
+READ_ONLY	YES
+COMMAND_LINE_ARGUMENT	REQUIRED
+GLOBAL_VALUE_PATH	NULL
+VARIABLE_NAME	WSREP_PROVIDER_SOCKET_SSL_RELOAD
+SESSION_VALUE	NULL
+GLOBAL_VALUE	OFF
+GLOBAL_VALUE_ORIGIN	COMPILE-TIME
+DEFAULT_VALUE	OFF
+VARIABLE_SCOPE	GLOBAL
+VARIABLE_TYPE	BOOLEAN
+VARIABLE_COMMENT	Wsrep provider option
+NUMERIC_MIN_VALUE	NULL
+NUMERIC_MAX_VALUE	NULL
+NUMERIC_BLOCK_SIZE	NULL
+ENUM_VALUE_LIST	OFF,ON
+READ_ONLY	NO
+COMMAND_LINE_ARGUMENT	REQUIRED
+GLOBAL_VALUE_PATH	NULL
+
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="wsrep" name="wsrep_provider_plugin_wsrep_off" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="wsrep" name="wsrep_rpl" status="MTR_RES_PASSED" time="0.153" combinations="mix" />
+		<testcase assertions="" classname="wsrep" name="wsrep_rpl" status="MTR_RES_PASSED" time="0.151" combinations="row" />
+		<testcase assertions="" classname="wsrep" name="wsrep_rpl" status="MTR_RES_PASSED" time="0.152" combinations="stmt" />
+		<testcase assertions="" classname="wsrep" name="wsrep_variables_sst_method" status="MTR_RES_PASSED" time="0.002" combinations="" />
+		<testcase assertions="" classname="wsrep" name="wsrep_variables_wsrep_off" status="MTR_RES_PASSED" time="0.001" combinations="" />
+	</testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites disabled="0" errors="" failures="0" name="" tests="20" time="44.939">
+	<testsuite disabled="" errors="" failures="" hostname="eaea78680d40" id="0" name="s3" package="" skipped="2" tests="22" time="44.939" timestamp="2025-07-31T08:30:39Z">
+		<testcase assertions="" classname="s3" name="alter" status="MTR_RES_PASSED" time="3.319" combinations="" />
+		<testcase assertions="" classname="s3" name="alter2" status="MTR_RES_PASSED" time="1.208" combinations="" />
+		<testcase assertions="" classname="s3" name="amazon" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Not connected to AWS" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="s3" name="arguments" status="MTR_RES_PASSED" time="1.002" combinations="" />
+		<testcase assertions="" classname="s3" name="backup" status="MTR_RES_PASSED" time="0.350" combinations="" />
+		<testcase assertions="" classname="s3" name="basic" status="MTR_RES_PASSED" time="2.276" combinations="" />
+		<testcase assertions="" classname="s3" name="clone" status="MTR_RES_PASSED" time="0.392" combinations="" />
+		<testcase assertions="" classname="s3" name="debug" status="MTR_RES_PASSED" time="0.614" combinations="" />
+		<testcase assertions="" classname="s3" name="discovery" status="MTR_RES_PASSED" time="2.046" combinations="" />
+		<testcase assertions="" classname="s3" name="encryption" status="MTR_RES_PASSED" time="0.721" combinations="" />
+		<testcase assertions="" classname="s3" name="innodb" status="MTR_RES_PASSED" time="0.810" combinations="" />
+		<testcase assertions="" classname="s3" name="mysqldump" status="MTR_RES_PASSED" time="0.784" combinations="" />
+		<testcase assertions="" classname="s3" name="no_s3" status="MTR_RES_PASSED" time="0.019" combinations="" />
+		<testcase assertions="" classname="s3" name="partition" status="MTR_RES_PASSED" time="10.467" combinations="" />
+		<testcase assertions="" classname="s3" name="partition_create_fail" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="s3" name="partition_move" status="MTR_RES_PASSED" time="1.575" combinations="" />
+		<testcase assertions="" classname="s3" name="replication_delayed" status="MTR_RES_PASSED" time="1.627" combinations="mix" />
+		<testcase assertions="" classname="s3" name="replication_mixed" status="MTR_RES_PASSED" time="4.363" combinations="mix" />
+		<testcase assertions="" classname="s3" name="replication_partition" status="MTR_RES_PASSED" time="8.554" combinations="mix" />
+		<testcase assertions="" classname="s3" name="replication_stmt" status="MTR_RES_PASSED" time="4.310" combinations="stmt" />
+		<testcase assertions="" classname="s3" name="select" status="MTR_RES_PASSED" time="0.323" combinations="" />
+		<testcase assertions="" classname="s3" name="unsupported" status="MTR_RES_PASSED" time="0.179" combinations="" />
+	</testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "mtr-junit-collector"
+version = "0.1.0"
+description = "Drop-in replacement service for the deprecated Buildbot MTRLogObserver"
+authors = ["Razvan-Liviu Varzaru"]
+license = "GPL v3"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.115.14"
+sqlmodel = "^0.0.24"
+sqlalchemy = "^2.0.41"
+junitparser = "^4.0.2"
+httpx = "^0.28.1"
+python-multipart = "^0.0.20"
+gunicorn = "^23.0.0"
+uvicorn = {extras = ["standard"], version = "^0.35.0"}
+mysqlclient = "^2.2.7"
+prometheus-fastapi-instrumentator = "^7.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+black = "^24.4.2"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

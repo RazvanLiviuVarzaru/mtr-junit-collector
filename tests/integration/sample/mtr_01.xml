@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites disabled="0" errors="" failures="1" name="" tests="13" time="0.669">
+	<testsuite disabled="" errors="" failures="1" hostname="fedora" id="0" name="archive" package="" skipped="3" tests="16" time="0.669" timestamp="2025-06-18T18:11:39Z">
+		<testcase assertions="" classname="archive" name="archive" status="MTR_RES_FAILED" time="0.000" combinations="">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[CURRENT_TEST: archive.archive
+--- /home/razvan/mariadb-server/mysql-test/suite/archive/archive.result	2025-06-18 21:10:03.730627509 +0300
++++ /home/razvan/mariadb-server/mysql-test/suite/archive/archive.reject	2025-06-18 21:11:39.094125468 +0300
+@@ -110,7 +110,7 @@
+ fld3
+ honeysuckle
+ select t2.fld3 FROM t2 where fld3 LIKE 'honeysuckl_';
+-fld4
++fld3
+ honeysuckle
+ select t2.fld3 FROM t2 where fld3 LIKE 'hon_ysuckl_';
+ fld3
+
+Result content mismatch
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="archive" name="archive" status="MTR_RES_FAILED" time="0.000" combinations="test">
+			<failure message="" type="MTR_RES_FAILED">
+<![CDATA[CURRENT_TEST: archive.archive
+--- /home/razvan/mariadb-server/mysql-test/suite/archive/archive.result	2025-06-18 21:10:03.730627509 +0300
++++ /home/razvan/mariadb-server/mysql-test/suite/archive/archive.reject	2025-06-18 21:11:39.094125468 +0300
+@@ -110,7 +110,7 @@
+ fld3
+ honeysuckle
+ select t2.fld3 FROM t2 where fld3 LIKE 'honeysuckl_';
+-fld4
++fld3
+ honeysuckle
+ select t2.fld3 FROM t2 where fld3 LIKE 'hon_ysuckl_';
+ fld3
+
+Result content mismatch
+]]>
+			</failure>
+		</testcase>
+		<testcase assertions="" classname="archive" name="archive-big" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test needs --big-test" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="archive" name="archive_bitfield" status="MTR_RES_PASSED" time="0.083" combinations="" />
+		<testcase assertions="" classname="archive" name="archive_debug" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Requires debug build" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="archive" name="archive_eits" status="MTR_RES_PASSED" time="0.030" combinations="" />
+		<testcase assertions="" classname="archive" name="archive_gis" status="MTR_RES_PASSED" time="0.139" combinations="" />
+		<testcase assertions="" classname="archive" name="archive_no_symlink" status="MTR_RES_PASSED" time="0.032" combinations="" />
+		<testcase assertions="" classname="archive" name="archive_plugin" status="MTR_RES_PASSED" time="0.011" combinations="" />
+		<testcase assertions="" classname="archive" name="archive_symlink" status="MTR_RES_PASSED" time="0.026" combinations="" />
+		<testcase assertions="" classname="archive" name="discover" status="MTR_RES_PASSED" time="0.069" combinations="" />
+		<testcase assertions="" classname="archive" name="discover_5438" status="MTR_RES_PASSED" time="0.037" combinations="" />
+		<testcase assertions="" classname="archive" name="flush" status="MTR_RES_PASSED" time="0.031" combinations="" />
+		<testcase assertions="" classname="archive" name="mysqlhotcopy_archive" status="MTR_RES_SKIPPED" time="0.000" combinations="">
+			<skipped message="Test needs Perl modules DBI and DBD::MariaDB" type="MTR_RES_SKIPPED"/>
+		</testcase>
+		<testcase assertions="" classname="archive" name="partition_archive" status="MTR_RES_PASSED" time="0.130" combinations="" />
+		<testcase assertions="" classname="archive" name="repair" status="MTR_RES_PASSED" time="0.027" combinations="" />
+		<testcase assertions="" classname="archive" name="rnd_pos" status="MTR_RES_PASSED" time="0.054" combinations="" />
+	</testsuite>
+</testsuites>
